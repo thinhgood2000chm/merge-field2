@@ -84,52 +84,26 @@ class MergeField:
         t_elements = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
 
         for t_element in t_elements:
-            print(t_element.text)
+            print("text tren dau ", t_element.text)
             # Trường hợp thẻ không có text, vd: <w:t xml:space="preserve"/>
-            # cần gán lại là string rỗng '' để không chạy lỗi khi duyệt t_element.text
+            # cần gán lại là white space (không được gắn '' vì nó sẽ xóa khoảng trắng giữa các text )
+            # để không chạy lỗi khi duyệt t_element.text
             if t_element.text is None:
-                t_element.text = ''
+                t_element.text = ' '
 
-            if OPEN_TAG not in t_element.text:
+            if list_part_of_element_in_two_wr and OPEN_TAG not in t_element.text and CLOSE_TAG not in t_element.text:
+                print("text tren dau da vao append list  ", t_element.text)
                 list_part_of_element_in_two_wr.append(t_element.text)
-                continue
-            # th close tag nằm ở 1 row tiếp theo
+                wr = t_element.getparent()
+                wr.remove(t_element)
+                # th close tag nằm ở 1 row tiếp theo
             if CLOSE_TAG in t_element.text and not is_found_merge_field and list_part_of_element_in_two_wr:
-                print(list_part_of_element_in_two_wr)
-                print(t_element.text)
-                if t_element.text == CLOSE_TAG:
-                    # lấy list_part_of_element_in_two_wr[-1] vì tồn tại th «S1.A.V.2.2.5.24.20 nhưng ko có close tag
-                    # ở row dưới( đây là th soạn thảo thiếu )
-                    # và tiếp theo lại gặp «field và field này tiếp tục được add vào list
-                    # và có close tag ở row dưới thì sẽ lấy «field để gắn vs close tag
-
-                    # xóa khoảng trắng bên trong các merge field
-                    merge_field_dont_have_close_tag = re.sub(r'«\s*(.*?)\s*', r'«\1',
-                                                             ''.join(list_part_of_element_in_two_wr))
-                    print("ghhhhhhhhhhhhhhhhhhh", merge_field_dont_have_close_tag)
-                    new_mergefield = f'{merge_field_dont_have_close_tag}{t_element.text}'.strip()
-                    self.__set_text_for_t_element(
-                        element=t_element,
-                        text=new_mergefield
-                    )
-
-                    field_name = new_mergefield[1:-1]
-                    if field_name not in self.field_name__elements:
-                        self.field_name__elements[field_name] = []
-                    self.field_name__elements[field_name].append(t_element)
-                    list_part_of_element_in_two_wr = []
-                    continue
-
-                # các trường hợp '»«S1.A.V.2.1.12.1.12.20» «S1.A.V.2.2.5.24.20»' hoặc
-                # '» abc... ' (abc không phải là merge field)
-                # thì sẽ cộng thêm text trong list_part_of_element_in_two_wr với '»' để tạo thành mergefield hoàn chỉnh
-                # và cho sử lý ở đoạn  "if CLOSE_TAG in t_element.text:"
-                if t_element.text.startswith(CLOSE_TAG):
-                    merge_field_dont_have_close_tag = re.sub(r'«\s*(.*?)\s*', r'«\1',
-                                                             ''.join(list_part_of_element_in_two_wr))
-                    print("ppppppppppppp", merge_field_dont_have_close_tag)
-                    t_element.text = f'{merge_field_dont_have_close_tag}{t_element.text}'
-                    print("last test ", t_element.text)
+                print("list_part_of_element_in_two_wr tren dau ", list_part_of_element_in_two_wr)
+                list_merge_field_previuos_and_other = t_element.text.split(CLOSE_TAG)
+                if OPEN_TAG or CLOSE_TAG not in list_merge_field_previuos_and_other[0]:
+                    print("vào ghep")
+                    t_element.text = f"{''.join(list_part_of_element_in_two_wr)}{t_element.text}"
+                    print("text sau khi ghep", t_element.text)
                     list_part_of_element_in_two_wr = []
 
 
