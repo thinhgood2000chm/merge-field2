@@ -69,9 +69,7 @@ class MergeField:
                 self.__parse_tables(part=part)
                 # init data for checkbox_field_name__list_group_checkbox_details
                 self.__parse_checkboxes(part=part)
-            # for key, location in self.field_name__elements.items():
-            #     print("aaaaaaa", key, etree.tostring(location[0]))
-            print("pppppppppppppppppppp", self.field_name__elements)
+
         except Exception as ex:
             self.zip.close()
             raise ex
@@ -86,23 +84,44 @@ class MergeField:
         t_elements = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
 
         for t_element in t_elements:
-            # print('kkkkkkkkk', t_element.text)
+
             # Trường hợp thẻ không có text, vd: <w:t xml:space="preserve"/>
             # cần gán lại là string rỗng '' để không chạy lỗi khi duyệt t_element.text
             if t_element.text is None:
                 t_element.text = ''
 
-
+            # th close tag nằm ở 1 row tiếp theo
             if CLOSE_TAG in t_element.text and not is_found_merge_field and list_part_of_element_in_two_wr:
-                print("lllllllllllllllllll", t_element.text)
-                self.__set_text_for_t_element(element= t_element, text= f'{list_part_of_element_in_two_wr[0]}{t_element.text}')
-                print("ggggggggggggg",  t_element.text)
-                field_name = t_element.text[1:-1]
-                if field_name not in  self.field_name__elements:
-                    self.field_name__elements[field_name] = []
-                self.field_name__elements[field_name].append(t_element)
-                list_part_of_element_in_two_wr = []
-                continue
+                if t_element.text == CLOSE_TAG:
+                    # lấy list_part_of_element_in_two_wr[-1] vì tồn tại th «S1.A.V.2.2.5.24.20 nhưng ko có close tag
+                    # ở row dưới( đây là th soạn thảo thiếu )
+                    # và tiếp theo lại gặp «field và field này tiếp tục được add vào list
+                    # và có close tag ở row dưới thì sẽ lấy «field để gắn vs close tag
+
+                    # xóa khoảng trắng bên trong các merge field
+                    merge_field_dont_have_close_tag = re.sub(r'«\s*(.*?)\s*', r'«\1',
+                                                             list_part_of_element_in_two_wr[-1].strip())
+                    new_mergefield = f'{merge_field_dont_have_close_tag}{t_element.text}'.strip()
+                    self.__set_text_for_t_element(
+                        element=t_element,
+                        text=new_mergefield
+                    )
+
+                    field_name = new_mergefield[1:-1]
+                    if field_name not in self.field_name__elements:
+                        self.field_name__elements[field_name] = []
+                    self.field_name__elements[field_name].append(t_element)
+                    list_part_of_element_in_two_wr = []
+                    continue
+
+                # các trường hợp '»«S1.A.V.2.1.12.1.12.20» «S1.A.V.2.2.5.24.20»' hoặc
+                # '» abc... ' (abc không phải là merge field)
+                # thì sẽ cộng thêm text trong list_part_of_element_in_two_wr với '»' để tạo thành mergefield hoàn chỉnh
+                # và cho sử lý ở đoạn  "if CLOSE_TAG in t_element.text:"
+                else:
+                    t_element.text = f'{list_part_of_element_in_two_wr[-1]}{t_element.text}'
+                    list_part_of_element_in_two_wr = []
+
             if OPEN_TAG not in t_element.text and not is_found_merge_field:
                 continue
 
@@ -118,7 +137,7 @@ class MergeField:
             part_of_field_names.append(t_element.text)
             # add element between open and close tag to list need to delete
             part_of_merge_fields.append(t_element)
-            print("part_of_field_names", part_of_field_names)
+
             # useful when open tag = close tag -> prevent handle found close tag when only has open tag
             if is_first_element_contains_open_tag:
                 if (OPEN_TAG != CLOSE_TAG and CLOSE_TAG not in t_element.text) \
@@ -126,66 +145,44 @@ class MergeField:
                     is_first_element_contains_open_tag = False
                     continue
 
-            print("t_element",t_element.text)
             # handle when found close tag
             if CLOSE_TAG in t_element.text:
-                print("da vao")
                 # there are some text before OPEN_TAG -> add new element contains text before OPEN_TAG
                 if not part_of_field_names[0].startswith(OPEN_TAG):
                     remainder_and_list_first_part_of_field_name = part_of_field_names[0].split(OPEN_TAG)
-                    print("remainder_and_list_first_part_of_field_name", remainder_and_list_first_part_of_field_name)
-                    # print("remainder_and_list_first_part_of_field_name", remainder_and_list_first_part_of_field_name)
                     remainder = remainder_and_list_first_part_of_field_name[0]
-                    print("remainder", remainder)
                     first_part_of_field_name = f'{OPEN_TAG}'.join(
                         remainder_and_list_first_part_of_field_name[1:]
                     )
                     part_of_field_names[0] = f'{OPEN_TAG}{first_part_of_field_name}'
 
-                    ###########################################################################################
-                    if CLOSE_TAG  in remainder:
-                        pass
-                    else:
-                        remainder_t_element = deepcopy(t_element)
-                        print('remainder_t_element', remainder_t_element.text)
-                        self.__set_text_for_t_element(element=remainder_t_element, text=remainder)
-                        t_element.addprevious(remainder_t_element)
-                    #########################################################################################
+                    remainder_t_element = deepcopy(t_element)
+                    self.__set_text_for_t_element(element=remainder_t_element, text=remainder)
+                    t_element.addprevious(remainder_t_element)
+
                 # there are some text after CLOSE_TAG -> add new element contains text after CLOSE_TAG
                 if not part_of_field_names[-1].endswith(CLOSE_TAG):
                     list_last_part_of_field_name_and_remainder = part_of_field_names[-1].split(CLOSE_TAG)
-                    print("list_last_part_of_field_name_and_remainder", list_last_part_of_field_name_and_remainder)
-                    ###########################################################################
-                    # if OPEN_TAG in list_last_part_of_field_name_and_remainder[-1]:
-                    #     last_part_of_field_name = f'{CLOSE_TAG}'.join(
-                    #         list_last_part_of_field_name_and_remainder
-                    #     )
-                    # else:
                     last_part_of_field_name = f'{CLOSE_TAG}'.join(
                         list_last_part_of_field_name_and_remainder[:-1]
                     )
-                        ##########################################################################3
-                    print("last_part_of_field_name",last_part_of_field_name)
                     remainder = list_last_part_of_field_name_and_remainder[-1]
-                    print("hhhhhhhhhhhh ", f'{last_part_of_field_name}{CLOSE_TAG}')
+
                     part_of_field_names[-1] = f'{last_part_of_field_name}{CLOSE_TAG}'
-                    ###############################################################################
+
                     if OPEN_TAG in remainder:
                         list_part_of_element_in_two_wr.append(remainder)
-                        
                     else:
                         remainder_t_element = deepcopy(t_element)
                         self.__set_text_for_t_element(element=remainder_t_element, text=remainder)
                         t_element.addnext(remainder_t_element)
-                        ###########################################################################
-                print("ffffffffffff", part_of_field_names)
-                print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",list_part_of_element_in_two_wr)
+
                 # xóa khoảng trắng bên trong các merge field
                 field_name_contain_open_close_tag = re.sub(r'«\s*(.*?)\s*»', r'«\1»', ''.join(part_of_field_names))
 
                 # remove open and close tag
                 field_name = field_name_contain_open_close_tag[1:-1]
-                print(field_name)
+
                 # handle case when multi merge field in one t element
                 # EX: «field1» something between «field2».....«field3»
                 # after remove open and close tag: field1» something between «field2».....«field3
@@ -218,7 +215,6 @@ class MergeField:
                     parent = t_element.getparent()
                     parent.remove(t_element)
                 else:
-                    print("aaaaaaaaaaaaaaaaaaaaaaaa",t_element.text)
                     t_element.text = field_name_contain_open_close_tag
                     # set new attribute named is_merge_field -> easy find this element by filter by #elementpath
                     t_element.set('is_merge_field', 'True')
@@ -240,7 +236,6 @@ class MergeField:
                 is_found_merge_field = False
                 part_of_field_names = []
                 part_of_merge_fields = []
-
 
     def __parse_tables(self, part):
         tables = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tbl')
