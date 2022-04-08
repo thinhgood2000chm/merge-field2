@@ -18,14 +18,19 @@ def docx_to_pdf(input_docx_path, output_folder_path):
 
 
 if __name__ == "__main__":
-    docx_file_url = './response.docx'
+    docx_file_url = './test.docx'
     # docx_to_pdf('./filecanfix.docx', './output.pdf')
     # docx_file_url = './MAU_BAOCAO_TONGHOP_FULL (copy).docx'
 
     with MergeField(docx_file_url, is_remove_empty_table=True) as document:
         # document.merge({
-        #     "S1.A.1.5.4":['test'],
+        #     "S1.A.IV.0":["Kinh doanh"],
+        #     "S1.A.V.2.2.5.24.43":'test',
         #     "S1.A.V.2.3.4.18.20":"123123123",
+        #     "S1.A.V.2.1.11.3.15.2": "66666666666",
+        #     "S1.A.V.2.1.11.3.15.24":"00000000000",
+        #     "S1.A.V.2.1.11.3.15.3":"111111111111111111",
+        #     "S1.A.V.2.1.10.1.12.2":['Nam'],
         #     "S1.A.1.12": {
         #         "value":
         #             [

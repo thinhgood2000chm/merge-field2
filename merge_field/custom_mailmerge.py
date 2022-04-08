@@ -84,14 +84,19 @@ class MergeField:
         t_elements = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
 
         for t_element in t_elements:
-
+            print(t_element.text)
             # Trường hợp thẻ không có text, vd: <w:t xml:space="preserve"/>
             # cần gán lại là string rỗng '' để không chạy lỗi khi duyệt t_element.text
             if t_element.text is None:
                 t_element.text = ''
 
+            if OPEN_TAG not in t_element.text:
+                list_part_of_element_in_two_wr.append(t_element.text)
+                continue
             # th close tag nằm ở 1 row tiếp theo
             if CLOSE_TAG in t_element.text and not is_found_merge_field and list_part_of_element_in_two_wr:
+                print(list_part_of_element_in_two_wr)
+                print(t_element.text)
                 if t_element.text == CLOSE_TAG:
                     # lấy list_part_of_element_in_two_wr[-1] vì tồn tại th «S1.A.V.2.2.5.24.20 nhưng ko có close tag
                     # ở row dưới( đây là th soạn thảo thiếu )
@@ -100,7 +105,8 @@ class MergeField:
 
                     # xóa khoảng trắng bên trong các merge field
                     merge_field_dont_have_close_tag = re.sub(r'«\s*(.*?)\s*', r'«\1',
-                                                             list_part_of_element_in_two_wr[-1].strip())
+                                                             ''.join(list_part_of_element_in_two_wr))
+                    print("ghhhhhhhhhhhhhhhhhhh", merge_field_dont_have_close_tag)
                     new_mergefield = f'{merge_field_dont_have_close_tag}{t_element.text}'.strip()
                     self.__set_text_for_t_element(
                         element=t_element,
@@ -118,9 +124,14 @@ class MergeField:
                 # '» abc... ' (abc không phải là merge field)
                 # thì sẽ cộng thêm text trong list_part_of_element_in_two_wr với '»' để tạo thành mergefield hoàn chỉnh
                 # và cho sử lý ở đoạn  "if CLOSE_TAG in t_element.text:"
-                else:
-                    t_element.text = f'{list_part_of_element_in_two_wr[-1]}{t_element.text}'
+                if t_element.text.startswith(CLOSE_TAG):
+                    merge_field_dont_have_close_tag = re.sub(r'«\s*(.*?)\s*', r'«\1',
+                                                             ''.join(list_part_of_element_in_two_wr))
+                    print("ppppppppppppp", merge_field_dont_have_close_tag)
+                    t_element.text = f'{merge_field_dont_have_close_tag}{t_element.text}'
+                    print("last test ", t_element.text)
                     list_part_of_element_in_two_wr = []
+
 
             if OPEN_TAG not in t_element.text and not is_found_merge_field:
                 continue
@@ -133,7 +144,12 @@ class MergeField:
                 if OPEN_TAG != CLOSE_TAG:
                     part_of_field_names = []
                     part_of_merge_fields = []
-
+            # th row ở bên trên đã tìm thấy merge field những đến row dưới lại tìm thấy merge_field khác
+            # ==> xóa merge_field đã add bên trên đi vì đó là field tạo lỗi
+            # if OPEN_TAG in t_element.text and is_found_merge_field:
+            #     part_of_field_names = []
+            #     part_of_merge_fields = []
+            # else:
             part_of_field_names.append(t_element.text)
             # add element between open and close tag to list need to delete
             part_of_merge_fields.append(t_element)
@@ -171,6 +187,7 @@ class MergeField:
                     part_of_field_names[-1] = f'{last_part_of_field_name}{CLOSE_TAG}'
 
                     if OPEN_TAG in remainder:
+                        list_part_of_element_in_two_wr=[]
                         list_part_of_element_in_two_wr.append(remainder)
                     else:
                         remainder_t_element = deepcopy(t_element)
@@ -192,6 +209,7 @@ class MergeField:
                         if OPEN_TAG not in something_and_field_name:
                             new_field_name = something_and_field_name
                         else:
+                            print("something_and_field_name", something_and_field_name)
                             something_between, new_field_name = something_and_field_name.split(OPEN_TAG)
 
                             new_t_element = deepcopy(t_element)

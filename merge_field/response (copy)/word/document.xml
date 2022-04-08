@@ -29573,16 +29573,16 @@
 									<w:color w:val="FF0000"/>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>«S1.A.V.2.1.10.1.12.22» «S1.A.V.2.1.11.3.15.20» «S1.A.V.2.1.12.1.12.20» «S1.A.V.2.2.5.24.20» «S1.A.V.2.3</w:t>
+								<w:t>«S1.A.V.2.1.10.1.12.22» «S1.A.V.2.1.11.3.15.20» «S1.A.V.2.1.12.1.12.20» «S1.A.V.2.2.5.24.20» «S1.A.V.</w:t>
 							</w:r>
-                            	<w:r>
+                            <w:r>
 								<w:rPr>
 									<w:rFonts w:eastAsia="Dotum"/>
 									<w:b/>
 									<w:color w:val="FF0000"/>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>.4.18.20</w:t>
+								<w:t>2.3.4.18.20</w:t>
 							</w:r>
 							<w:r>
 								<w:rPr>
@@ -29592,6 +29592,33 @@
 									<w:sz w:val="20"/>
 								</w:rPr>
 								<w:t>» «S1.A.V.2.4.1.9.22» «S1.A.V.2.5.1.9.22» «S1.A.V.2.6.1.9.22» «S1.A.V.2.7.1.9.22» «S1.A.V.2.8.1.9.22»</w:t>
+							</w:r>
+                            <w:r>
+								<w:rPr>
+									<w:rFonts w:eastAsia="Dotum"/>
+									<w:bCs/>
+									<w:color w:val="FF0000"/>
+									<w:sz w:val="20"/>
+								</w:rPr>
+								<w:t>«S1.A.V.2.8.</w:t>
+							</w:r>
+                            <w:r>
+								<w:rPr>
+									<w:rFonts w:eastAsia="Dotum"/>
+									<w:bCs/>
+									<w:color w:val="FF0000"/>
+									<w:sz w:val="20"/>
+								</w:rPr>
+								<w:t>.1.9.22</w:t>
+							</w:r>
+                            <w:r>
+								<w:rPr>
+									<w:rFonts w:eastAsia="Dotum"/>
+									<w:bCs/>
+									<w:color w:val="FF0000"/>
+									<w:sz w:val="20"/>
+								</w:rPr>
+								<w:t>«asf1.9.22</w:t>
 							</w:r>
 						</w:p>
 					</w:tc>
