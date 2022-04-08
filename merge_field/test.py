@@ -18,7 +18,7 @@ def docx_to_pdf(input_docx_path, output_folder_path):
 
 
 if __name__ == "__main__":
-    docx_file_url = './test.docx'
+    docx_file_url = './response.docx'
     # docx_to_pdf('./filecanfix.docx', './output.pdf')
     # docx_file_url = './MAU_BAOCAO_TONGHOP_FULL (copy).docx'
 

@@ -79,33 +79,36 @@ class MergeField:
         is_first_element_contains_open_tag = False
         part_of_field_names = []
         part_of_merge_fields = []
-        list_part_of_element_in_two_wr = []
+        text_of_element_in_wr__elements = {}
 
         t_elements = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
 
         for t_element in t_elements:
-            print("text tren dau ", t_element.text)
             # Trường hợp thẻ không có text, vd: <w:t xml:space="preserve"/>
             # cần gán lại là white space (không được gắn '' vì nó sẽ xóa khoảng trắng giữa các text )
             # để không chạy lỗi khi duyệt t_element.text
             if t_element.text is None:
                 t_element.text = ' '
+            
+            # nếu trong list đã có thẻ OPEN TAG thì mới add các phần phía sau 
+            if text_of_element_in_wr__elements and OPEN_TAG not in t_element.text and CLOSE_TAG not in t_element.text:
+                text_of_element_in_wr__elements[t_element.text] = t_element
+                # wr = t_element.getparent()
+                # wr.remove(t_element)
 
-            if list_part_of_element_in_two_wr and OPEN_TAG not in t_element.text and CLOSE_TAG not in t_element.text:
-                print("text tren dau da vao append list  ", t_element.text)
-                list_part_of_element_in_two_wr.append(t_element.text)
-                wr = t_element.getparent()
-                wr.remove(t_element)
-                # th close tag nằm ở 1 row tiếp theo
-            if CLOSE_TAG in t_element.text and not is_found_merge_field and list_part_of_element_in_two_wr:
-                print("list_part_of_element_in_two_wr tren dau ", list_part_of_element_in_two_wr)
+            # merge_field «S1.A.V.2.1.10.1.12.20» «S1.A.V.2.1.11.3.15.18»  «S1.A.V.2.1.12.1.12.18
+            # và close tag nằm ở 1 row tiếp theo
+            if CLOSE_TAG in t_element.text and not is_found_merge_field and text_of_element_in_wr__elements:
                 list_merge_field_previuos_and_other = t_element.text.split(CLOSE_TAG)
-                if OPEN_TAG or CLOSE_TAG not in list_merge_field_previuos_and_other[0]:
-                    print("vào ghep")
-                    t_element.text = f"{''.join(list_part_of_element_in_two_wr)}{t_element.text}"
-                    print("text sau khi ghep", t_element.text)
-                    list_part_of_element_in_two_wr = []
-
+                if OPEN_TAG and CLOSE_TAG not in list_merge_field_previuos_and_other[0]:
+                    t_element.text = f"{''.join(text_of_element_in_wr__elements)}{t_element.text}"
+                    
+                    # xóa các element trong các row có các phần tử là merge field
+                    for _, element in text_of_element_in_wr__elements.items():
+                        if element is not None:
+                            parent = element.getparent()
+                            parent.remove(element)
+                    text_of_element_in_wr__elements = {}
 
             if OPEN_TAG not in t_element.text and not is_found_merge_field:
                 continue
@@ -161,8 +164,8 @@ class MergeField:
                     part_of_field_names[-1] = f'{last_part_of_field_name}{CLOSE_TAG}'
 
                     if OPEN_TAG in remainder:
-                        list_part_of_element_in_two_wr=[]
-                        list_part_of_element_in_two_wr.append(remainder)
+                        text_of_element_in_wr__elements={}
+                        text_of_element_in_wr__elements[remainder] = None
                     else:
                         remainder_t_element = deepcopy(t_element)
                         self.__set_text_for_t_element(element=remainder_t_element, text=remainder)
@@ -183,7 +186,7 @@ class MergeField:
                         if OPEN_TAG not in something_and_field_name:
                             new_field_name = something_and_field_name
                         else:
-                            print("something_and_field_name", something_and_field_name)
+                            print("something_and_field_name", something_and_field_name.split(OPEN_TAG))
                             something_between, new_field_name = something_and_field_name.split(OPEN_TAG)
 
                             new_t_element = deepcopy(t_element)
