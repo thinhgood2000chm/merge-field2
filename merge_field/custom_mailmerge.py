@@ -28,23 +28,29 @@ CONTENT_TYPES_PARTS = (
 # https://www.w3.org/XML/1998/namespace
 XML_SPACE_ATTRIBUTE = '{http://www.w3.org/XML/1998/namespace}space'
 
+# open tag should be different from close tag
 OPEN_TAG = '«'
 CLOSE_TAG = '»'
 
 CHECKBOX_CHECKED_TEXT = '☒'
 CHECKBOX_UNCHECKED_TEXT = '☐'
 
+# parse from docx
 MERGE_FIELD_TYPE_TEXT = 'text'
 MERGE_FIELD_TYPE_CHECKBOX = 'checkbox'
+
+# config in TMS
 MERGE_FIELD_TYPE_EMBOSSED_TABLE = "embossed_table"
-
-BYPASS_SEPARATOR_CHARACTERS = ["-", ":"]
-
 MERGE_FIELD_TYPE_EXTEND_TEXT_CHECKBOX = "extend_checkbox"
+
+EMBOSSED_TABLE_BYPASS_SEPARATOR_CHARACTERS = ["-", ":"]
+
+NUMBER_ROW_IN_TABLE_IS_ONE = 1
+NUMBER_ROW_IN_TABLE_IS_TWO = 2
 
 
 class MergeField:
-    def __init__(self, file, is_remove_empty_table=False):
+    def __init__(self, file, is_remove_row_or_table_has_one_row_when_empty=True):
         self.zip: ZipFile = ZipFile(file)
         self.parts: dict = {}
         self.field_name__elements: dict = {}
@@ -53,7 +59,7 @@ class MergeField:
         self.checkbox_field_name__values: dict = {}
         self.embossed_table_field_name__details: dict = {}
 
-        self.is_remove_empty_table: bool = is_remove_empty_table
+        self.is_remove_row_or_table_has_one_row_when_empty: bool = is_remove_row_or_table_has_one_row_when_empty
 
         try:
             content_types = etree.parse(self.zip.open('[Content_Types].xml'))
@@ -75,189 +81,199 @@ class MergeField:
             raise ex
 
     def __parse_merge_fields(self, part):
-        is_found_merge_field = False
-        is_first_element_contains_open_tag = False
+        is_found_open_tag = False
+        previous_p_element = None
         part_of_field_names = []
         part_of_merge_fields = []
-        text_of_element_in_wr__elements = {}
+        previous_remainder_field_name = None
+        is_append_previous_remainder_field_name_to_part_of_field_names = False
+        previous_last_remainder_t_element = None
+        previous_p_element_contains_previous_last_remainder_t_element = None
 
         t_elements = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
 
         for t_element in t_elements:
+
             # Trường hợp thẻ không có text, vd: <w:t xml:space="preserve"/>
-            # cần gán lại là white space (không được gắn '' vì nó sẽ xóa khoảng trắng giữa các text )
-            # để không chạy lỗi khi duyệt t_element.text
+            # cần gán lại là string rỗng '' để không chạy lỗi khi duyệt t_element.text
             if t_element.text is None:
-                t_element.text = ' '
-            
-            # nếu trong list đã có thẻ OPEN TAG thì mới add các phần phía sau 
-            if text_of_element_in_wr__elements and OPEN_TAG not in t_element.text and CLOSE_TAG not in t_element.text:
-                text_of_element_in_wr__elements[t_element.text] = t_element
-                # wr = t_element.getparent()
-                # wr.remove(t_element)
+                t_element.text = ''
 
-            # merge_field «S1.A.V.2.1.10.1.12.20» «S1.A.V.2.1.11.3.15.18»  «S1.A.V.2.1.12.1.12.18
-            # và close tag nằm ở 1 row tiếp theo
-            if CLOSE_TAG in t_element.text and not is_found_merge_field and text_of_element_in_wr__elements:
-                list_merge_field_previuos_and_other = t_element.text.split(CLOSE_TAG)
-                if OPEN_TAG and CLOSE_TAG not in list_merge_field_previuos_and_other[0]:
-                    t_element.text = f"{''.join(text_of_element_in_wr__elements)}{t_element.text}"
-                    
-                    # xóa các element trong các row có các phần tử là merge field
-                    for _, element in text_of_element_in_wr__elements.items():
-                        if element is not None:
-                            parent = element.getparent()
-                            parent.remove(element)
-                    text_of_element_in_wr__elements = {}
-
-            if OPEN_TAG not in t_element.text and not is_found_merge_field:
+            if not is_found_open_tag and OPEN_TAG not in t_element.text and not previous_remainder_field_name:
+                previous_p_element = t_element.getparent().getparent()
                 continue
 
-            if OPEN_TAG in t_element.text and not is_found_merge_field:
-                is_found_merge_field = True
-                is_first_element_contains_open_tag = True
+            if not is_found_open_tag and OPEN_TAG in t_element.text:
+                is_found_open_tag = True
 
-                # can not found close tag in previous merge field
-                if OPEN_TAG != CLOSE_TAG:
+            current_p_element = t_element.getparent().getparent()
+            if previous_remainder_field_name:
+                # Trường hợp trong <t> trước có «abc nhưng <t> sau lại nằm trong <p> khác
+                # -> Thêm element chứa «abc vào <p> trước đó
+                if current_p_element is not previous_p_element_contains_previous_last_remainder_t_element:
+                    remainder_after_previous_last_remainder_t_element = deepcopy(previous_last_remainder_t_element)
+                    self.__set_text_for_t_element(
+                        element=remainder_after_previous_last_remainder_t_element,
+                        text=previous_remainder_field_name
+                    )
+                    previous_last_remainder_t_element.addnext(remainder_after_previous_last_remainder_t_element)
+
+                    previous_remainder_field_name = None
+                    is_append_previous_remainder_field_name_to_part_of_field_names = False
+                    previous_last_remainder_t_element = None
+                    previous_p_element_contains_previous_last_remainder_t_element = None
+
+                    previous_p_element = t_element.getparent().getparent()
                     part_of_field_names = []
                     part_of_merge_fields = []
-            # th row ở bên trên đã tìm thấy merge field những đến row dưới lại tìm thấy merge_field khác
-            # ==> xóa merge_field đã add bên trên đi vì đó là field tạo lỗi
-            # if OPEN_TAG in t_element.text and is_found_merge_field:
-            #     part_of_field_names = []
-            #     part_of_merge_fields = []
-            # else:
+                    continue
+
+                # Trường hợp trong <t> trước có «abc nhưng <t> cùng nằm trong <p>
+                # -> append vào part_of_field_names để phòng <t> sau có thể là def» -> merge field là «abcdef»
+                else:
+                    if not is_append_previous_remainder_field_name_to_part_of_field_names:
+                        part_of_field_names.append(previous_remainder_field_name)
+                        is_append_previous_remainder_field_name_to_part_of_field_names = True
+
+            if current_p_element is not previous_p_element:
+                part_of_field_names = []
+                part_of_merge_fields = []
+
+            previous_p_element = t_element.getparent().getparent()
+
             part_of_field_names.append(t_element.text)
             # add element between open and close tag to list need to delete
             part_of_merge_fields.append(t_element)
 
-            # useful when open tag = close tag -> prevent handle found close tag when only has open tag
-            if is_first_element_contains_open_tag:
-                if (OPEN_TAG != CLOSE_TAG and CLOSE_TAG not in t_element.text) \
-                        or (OPEN_TAG == CLOSE_TAG and t_element.text.count(CLOSE_TAG) != 2):
-                    is_first_element_contains_open_tag = False
-                    continue
-
             # handle when found close tag
             if CLOSE_TAG in t_element.text:
-                # there are some text before OPEN_TAG -> add new element contains text before OPEN_TAG
-                if not part_of_field_names[0].startswith(OPEN_TAG):
-                    remainder_and_list_first_part_of_field_name = part_of_field_names[0].split(OPEN_TAG)
-                    remainder = remainder_and_list_first_part_of_field_name[0]
-                    first_part_of_field_name = f'{OPEN_TAG}'.join(
-                        remainder_and_list_first_part_of_field_name[1:]
-                    )
-                    part_of_field_names[0] = f'{OPEN_TAG}{first_part_of_field_name}'
-
-                    remainder_t_element = deepcopy(t_element)
-                    self.__set_text_for_t_element(element=remainder_t_element, text=remainder)
-                    t_element.addprevious(remainder_t_element)
-
-                # there are some text after CLOSE_TAG -> add new element contains text after CLOSE_TAG
-                if not part_of_field_names[-1].endswith(CLOSE_TAG):
-                    list_last_part_of_field_name_and_remainder = part_of_field_names[-1].split(CLOSE_TAG)
-                    last_part_of_field_name = f'{CLOSE_TAG}'.join(
-                        list_last_part_of_field_name_and_remainder[:-1]
-                    )
-                    remainder = list_last_part_of_field_name_and_remainder[-1]
-
-                    part_of_field_names[-1] = f'{last_part_of_field_name}{CLOSE_TAG}'
-
-                    if OPEN_TAG in remainder:
-                        text_of_element_in_wr__elements={}
-                        text_of_element_in_wr__elements[remainder] = None
-                    else:
-                        remainder_t_element = deepcopy(t_element)
-                        self.__set_text_for_t_element(element=remainder_t_element, text=remainder)
-                        t_element.addnext(remainder_t_element)
-
                 # xóa khoảng trắng bên trong các merge field
-                field_name_contain_open_close_tag = re.sub(r'«\s*(.*?)\s*»', r'«\1»', ''.join(part_of_field_names))
+                text_contain_list_field_name = re.sub(
+                    pattern=rf'{OPEN_TAG}\s*(.*?)\s*{CLOSE_TAG}',
+                    repl=rf'{OPEN_TAG}\1{CLOSE_TAG}',
+                    string=''.join(part_of_field_names)
+                )
+                # tìm tất cả các field name bởi vì có thể có nhiều field name trong một <t>
+                field_name_contain_open_close_tags = re.findall(
+                    pattern=rf'({OPEN_TAG}.*?{CLOSE_TAG})',
+                    string=text_contain_list_field_name
+                )
+                for field_name_contain_open_close_tag in field_name_contain_open_close_tags:
+                    start_index_found = text_contain_list_field_name.find(field_name_contain_open_close_tag)
 
-                # remove open and close tag
-                field_name = field_name_contain_open_close_tag[1:-1]
+                    front_remainder = text_contain_list_field_name[:start_index_found]
+                    if front_remainder:
+                        front_remainder_t_element = deepcopy(t_element)
+                        self.__set_text_for_t_element(element=front_remainder_t_element, text=front_remainder)
+                        t_element.addprevious(front_remainder_t_element)
 
-                # handle case when multi merge field in one t element
-                # EX: «field1» something between «field2».....«field3»
-                # after remove open and close tag: field1» something between «field2».....«field3
-                if OPEN_TAG in field_name and CLOSE_TAG in field_name:
-                    for something_and_field_name in field_name.split(CLOSE_TAG):
-                        # if not contain OPEN_TAG -> It is merge field
-                        if OPEN_TAG not in something_and_field_name:
-                            new_field_name = something_and_field_name
-                        else:
-                            print("something_and_field_name", something_and_field_name.split(OPEN_TAG))
-                            something_between, new_field_name = something_and_field_name.split(OPEN_TAG)
-
-                            new_t_element = deepcopy(t_element)
-                            self.__set_text_for_t_element(element=new_t_element, text=something_between)
-
-                            t_element.addprevious(new_t_element)
-
-                        new_merge_field = deepcopy(t_element)
-                        new_merge_field.text = f'{OPEN_TAG}{new_field_name}{CLOSE_TAG}'
-                        # set new attribute named is_merge_field -> easy find this element by filter by #elementpath
-                        new_merge_field.set('is_merge_field', 'True')
-
-                        t_element.addprevious(new_merge_field)
-
-                        # maybe there are some merge field with the same name -> add to list
-                        if new_field_name not in self.field_name__elements:
-                            self.field_name__elements[new_field_name] = []
-                        self.field_name__elements[new_field_name].append(new_merge_field)
-
-                    # remove current merge field due to contain multi merge field
-                    parent = t_element.getparent()
-                    parent.remove(t_element)
-                else:
-                    t_element.text = field_name_contain_open_close_tag
+                    # create merged field
+                    new_field_name = field_name_contain_open_close_tag[1:-1]
+                    new_merge_field = deepcopy(t_element)
+                    new_merge_field.text = field_name_contain_open_close_tag
                     # set new attribute named is_merge_field -> easy find this element by filter by #elementpath
-                    t_element.set('is_merge_field', 'True')
+                    new_merge_field.set('is_merge_field', 'True')
+
+                    t_element.addprevious(new_merge_field)
 
                     # maybe there are some merge field with the same name -> add to list
-                    if field_name not in self.field_name__elements:
-                        self.field_name__elements[field_name] = []
-                    self.field_name__elements[field_name].append(t_element)
+                    if new_field_name not in self.field_name__elements:
+                        self.field_name__elements[new_field_name] = []
+                    self.field_name__elements[new_field_name].append(new_merge_field)
 
-                # remove current merge field
-                part_of_merge_fields.pop()
+                    # xóa phần trước merge field và merge field đã được xử lý
+                    text_contain_list_field_name = text_contain_list_field_name[
+                        start_index_found + len(field_name_contain_open_close_tag):]
+
+                previous_remainder_field_name = None
+                previous_last_remainder_t_element = None
+                previous_p_element_contains_previous_last_remainder_t_element = None
+                # trường hợp merge field nằm ở nhiều <t>:
+                # phía cuối có thể là «abc và <t> tiếp theo là def» -> merge field là «abcdef»
+                if OPEN_TAG in text_contain_list_field_name:
+                    start_index_found = text_contain_list_field_name.find(OPEN_TAG)
+
+                    last_remainder = text_contain_list_field_name[:start_index_found]
+                    last_remainder_t_element = deepcopy(t_element)
+                    self.__set_text_for_t_element(element=last_remainder_t_element, text=last_remainder)
+                    t_element.addprevious(last_remainder_t_element)
+
+                    previous_remainder_field_name = text_contain_list_field_name[start_index_found:]
+                    is_append_previous_remainder_field_name_to_part_of_field_names = False
+                    previous_last_remainder_t_element = last_remainder_t_element
+                    previous_p_element_contains_previous_last_remainder_t_element = last_remainder_t_element.getparent().getparent()
+
+                # xử lý phần còn lại của text_contain_list_field_name
+                else:
+                    last_remainder_t_element = deepcopy(t_element)
+                    self.__set_text_for_t_element(element=last_remainder_t_element, text=text_contain_list_field_name)
+                    t_element.addprevious(last_remainder_t_element)
 
                 # delete all element between open and close tag
                 for element in part_of_merge_fields:
                     parent = element.getparent()
-                    grand_parent = parent.getparent()
-                    grand_parent.remove(parent)
+                    parent.remove(element)
 
-                is_found_merge_field = False
+                is_found_open_tag = False
                 part_of_field_names = []
                 part_of_merge_fields = []
 
     def __parse_tables(self, part):
+        result = self.__get_in_table_field_name__details__and__embossed_table_field_name__details(part=part)
+        self.in_table_field_name__details.update(result['in_table_field_name__details'])
+        self.embossed_table_field_name__details.update(result['embossed_table_field_name__details'])
+
+    @staticmethod
+    def __get_in_table_field_name__details__and__embossed_table_field_name__details(part,
+                                                                                    is_parse_in_table_field_name=True):
+        in_table_field_name__details = {}
+        embossed_table_field_name__details = {}
+
         tables = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tbl')
         for table in tables:
-            for row in table:
-                merge_fields = row.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
-                for merge_field in merge_fields:
-                    self.in_table_field_name__details[merge_field.text[1:-1]] = {
-                        'table': table,
-                        'row': row
-                    }
+            if is_parse_in_table_field_name:
+                for row in table:
+                    merge_fields = row.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
+                    for merge_field in merge_fields:
+                        current_siblings = [merge_field.text[1:-1] for merge_field in merge_fields]
+
+                        if not in_table_field_name__details.get(merge_field.text[1:-1]):
+                            siblings = current_siblings
+                        else:
+                            siblings = list(
+                                set(in_table_field_name__details[merge_field.text[1:-1]]['siblings'] + current_siblings)
+                            )
+
+                        in_table_field_name__details[merge_field.text[1:-1]] = {
+                            'table': table,
+                            'row': row,
+                            'siblings': sorted(siblings)
+                        }
 
             # Bảng khung dập nổi
+            # tbl -> tc -> tbl (bảng dập nổi) + t (merge_field)
             text_element_in_tables = table.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
-            # chỉ chấp nhận trường hợp các ô trong bảng đều là ô trống hoặc là ký tự phân cách
+            # chỉ chấp nhận trường hợp các ô trong bảng đều là ô trống hoặc là ký tự phân cách, và có tối thiểu 1
             if (not text_element_in_tables) or \
                     (text_element_in_tables and all(
-                        text_element.text in BYPASS_SEPARATOR_CHARACTERS for text_element in text_element_in_tables)):
+                        text_element.text in EMBOSSED_TABLE_BYPASS_SEPARATOR_CHARACTERS
+                        for text_element in text_element_in_tables)):
 
+                # Quy định bảng dập nổi phải nằm trong ô của table
                 tc = table.getparent()
-                merge_fields = tc.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
-                for merge_field in merge_fields:
-                    field_name = merge_field.text[1:-1]
-                    self.embossed_table_field_name__details[field_name] = {
-                        'embossed_table': table,
-                        'merge_field': merge_field
-                    }
+                if tc.tag == f'{{{NAMESPACE_WORDPROCESSINGML}}}tc':
+                    merge_fields = tc.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
+                    for merge_field in merge_fields:
+                        field_name = merge_field.text[1:-1]
+                        embossed_table_field_name__details[field_name] = {
+                            'embossed_table': table,
+                            'merge_field': merge_field
+                        }
+
+        return {
+            'in_table_field_name__details': in_table_field_name__details,
+            'embossed_table_field_name__details': embossed_table_field_name__details
+        }
 
     def __parse_checkboxes(self, part):
         self.checkbox_field_name__list_group_checkbox_details.update(
@@ -397,14 +413,23 @@ class MergeField:
         for field_name in self.field_name__elements.keys():
             field_name__infos[field_name] = {
                 'type': MERGE_FIELD_TYPE_TEXT,
-                'values': None
+                'values': None,
+                'in_table': False,
+                'siblings': None
             }
 
         for checkbox_field_name, group_checkbox_details in self.checkbox_field_name__list_group_checkbox_details.items():
             field_name__infos[checkbox_field_name] = {
                 'type': MERGE_FIELD_TYPE_CHECKBOX,
-                'values': self.checkbox_field_name__values[checkbox_field_name]
+                'values': self.checkbox_field_name__values[checkbox_field_name],
+                'in_table': False,
+                'siblings': None
             }
+
+        for field_name in field_name__infos:
+            if field_name in self.in_table_field_name__details:
+                field_name__infos[field_name]['in_table'] = True
+                field_name__infos[field_name]['siblings'] = self.in_table_field_name__details[field_name]['siblings']
 
         return field_name__infos
 
@@ -426,8 +451,8 @@ class MergeField:
                 else:
                     output.writestr(filename, self.zip.read(zip_info))
 
-    def merge(self, replacements: dict):
-        for field_name, replacement in replacements.items():
+    def merge(self, not_in_group_replacements: dict, in_group_replacements: dict):
+        for field_name, replacement in not_in_group_replacements.items():
             if self.__is_valid_need_to_checked_values_for_checkbox(value_need_to_check=replacement) \
                     and field_name in self.checkbox_field_name__list_group_checkbox_details:
                 self.__merge_checkbox(field_name=field_name, need_to_checked_values=replacement)
@@ -440,15 +465,17 @@ class MergeField:
             elif self.__is_valid_values_for_embossed_table(value_need_to_check=replacement) \
                     and field_name in self.embossed_table_field_name__details:
                 self.__merge_embossed_table(field_name=field_name, embossed_table_info=replacement)
-
-            elif self.__is_valid_values_for_row(value_need_to_check=replacement):
-                self.__merge_rows(anchor=field_name, rows=replacement)
-
             else:
                 self.__merge_field(field_name=field_name, text=replacement)
 
+        for field_name_anchor, list_row_replacement in in_group_replacements.items():
+            if self.__is_valid_values_for_row(value_need_to_check=list_row_replacement):
+                self.__merge_rows(anchor=field_name_anchor, rows=list_row_replacement)
+            else:
+                self.__merge_field(field_name=field_name_anchor, text=list_row_replacement)
+
     def __merge_rows(self, anchor, rows):
-        if anchor not in self.field_name__elements:
+        if anchor not in self.in_table_field_name__details:
             return None
 
         table = self.in_table_field_name__details[anchor]['table']
@@ -459,8 +486,15 @@ class MergeField:
                 new_row = deepcopy(row)
                 row.addprevious(new_row)
 
+                print(      "ffasdfasdfasdfasdfasdf"  ,        len(table.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tr')), table.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tr'))
                 in_new_row_checkbox_field_name__list_group_checkbox_details = \
                     self.__get_checkbox_field_name__list_group_checkbox_details(part=new_row)
+
+                result = self.__get_in_table_field_name__details__and__embossed_table_field_name__details(
+                    part=new_row,
+                    is_parse_in_table_field_name=False
+                )
+                in_new_row_embossed_table_field_name__details = result['embossed_table_field_name__details']
 
                 merge_fields = new_row.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
                 for merge_field in merge_fields:
@@ -481,28 +515,105 @@ class MergeField:
                                     need_to_checked_values=need_to_checked_values_or_text
                                 )
 
-                        else:
-                            self.__fill_text(
-                                merge_field=merge_field,
-                                parent=merge_field.getparent(),
-                                text=need_to_checked_values_or_text
+                        elif self.__is_valid_need_to_checked_values_for_extend_text_checkbox(
+                                value_need_to_check=need_to_checked_values_or_text
+                        ) and field_name in in_new_row_checkbox_field_name__list_group_checkbox_details:
+
+                            for group_checkbox_detail \
+                                    in in_new_row_checkbox_field_name__list_group_checkbox_details[field_name]:
+                                self.__fill_checkbox(
+                                    field_name=field_name,
+                                    merge_field=merge_field,
+                                    parent=merge_field.getparent(),
+                                    checkbox_infos=group_checkbox_detail['checkbox_infos'],
+                                    need_to_checked_values=need_to_checked_values_or_text,
+                                    is_add_extend_text=True
+                                )
+
+                        elif self.__is_valid_values_for_embossed_table(
+                                value_need_to_check=need_to_checked_values_or_text) \
+                                and field_name in in_new_row_embossed_table_field_name__details:
+                            detail = in_new_row_embossed_table_field_name__details[field_name]
+                            self.__fill_embossed_table(
+                                merge_field=detail['merge_field'],
+                                parent=detail['merge_field'].getparent(),
+                                embossed_table_obj=detail['embossed_table'],
+                                need_to_checked_values=need_to_checked_values_or_text
                             )
 
+                        else:
+                            print("da vaof ")
+                            wp_of_merge_field = merge_field.getparent().getparent()
+                            columns = new_row.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tc')
+
+                            if len(columns) == 1:
+                                child_t_elements_dont_have_empty_in_p = []
+                                child_elements_in_p = wp_of_merge_field.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
+                                for w_text in child_elements_in_p:
+                                    if w_text.text != '':
+                                        child_t_elements_dont_have_empty_in_p.append(w_text)
+
+                                if not need_to_checked_values_or_text and len(child_t_elements_dont_have_empty_in_p) == 1:
+                                    print("new row", etree.tostring(new_row))
+                                    row.getparent().remove(new_row)
+
+                            # print("da vaof ", etree.tostring(wp_of_merge_field))
+                            # if not need_to_checked_values_or_text and len(wp_of_merge_field.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD))==1:
+                            #     # xóa các row trong p
+                            #     list_wr_in_wp = wp_of_merge_field.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}r')
+                            #     for wr_in_wp in list_wr_in_wp:
+                            #         wp_of_merge_field.remove(wr_in_wp)
+                            #     detail_format_element = wp_of_merge_field[0]
+                            #     print("detail_format_element",detail_format_element)
+                            #     # xóa bullet hoặc kí tự đầu dòng
+                            #     # print("tag", detail_format_element.tag)
+                            #     bullet_number = detail_format_element.find(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}numPr')
+                            #     if bullet_number:
+                            #         print("ggggg gggg")
+                            #         detail_format_element.remove(bullet_number)
+                            else:
+                                self.__fill_text(
+                                    merge_field=merge_field,
+                                    parent=merge_field.getparent(),
+                                    text=need_to_checked_values_or_text
+                                )
             table.remove(row)
         else:
-            if self.is_remove_empty_table:
-                parent = table.getparent()
-                parent.remove(table)
+            if self.is_remove_row_or_table_has_one_row_when_empty:
+                count_row_in_table = 0
+                for _row in table.getchildren():
+                    if _row.tag == f'{{{NAMESPACE_WORDPROCESSINGML}}}tr':
+                        count_row_in_table += 1
+
+                # TH1: bảng 1 dòng -> xóa bảng
+                if count_row_in_table == NUMBER_ROW_IN_TABLE_IS_ONE:
+                    parent = table.getparent()
+                    parent.remove(table)
+
+                # TH 2: bảng 2 dòng
+                # row trên không chứa merge field nào thì xóa bảng, còn không thì chỉ xóa dòng đó trong bảng
+                elif count_row_in_table == NUMBER_ROW_IN_TABLE_IS_TWO:
+                    first_row_in_table = table.find(f'{{{NAMESPACE_WORDPROCESSINGML}}}tr')
+                    merge_field_in_first_row_in_tables = first_row_in_table.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
+                    if not merge_field_in_first_row_in_tables:
+                        parent = table.getparent()
+                        parent.remove(table)
+                    else:
+                        table.remove(row)
+
+                # TH 3: bảng có nhiều hơn 2 dòng -> xóa dòng
+                else:
+                    table.remove(row)
 
     def __merge_field(self, field_name, text):
         for merge_field in self.field_name__elements.get(field_name, []):
             parent = merge_field.getparent()
-
+            print("da vao2222 ", field_name, parent)
             # remove blank line
             if not text \
                     and merge_field.text[1:-1] not in self.in_table_field_name__details \
                     and len(parent.getchildren()) == 2:
-
+                print("da vao ", field_name)
                 grand_parent = parent.getparent()
 
                 is_contain_num_format = False
@@ -519,37 +630,31 @@ class MergeField:
                     great_grand_parent.remove(grand_parent)
 
             else:
-                self.__fill_text(merge_field=merge_field, parent=parent, text=text)
+                # nếu truyền rỗng thì xóa hàng đó nếu hàng chỉ có 1 field hoặc có dấu "-", "bullet", "number"
+                # wt - wr - wp
+                grand_parent = parent.getparent()
+                child_elements_in_p = grand_parent.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
+
+                child_t_elements_dont_have_empty_in_p = []
+                # không xóa trực tiếp wt = '' trong child_elements_in_p vì sẽ làm thay đổi vị trí các phần tử trong list
+                for w_text in child_elements_in_p:
+                    if w_text.text != '':
+                        child_t_elements_dont_have_empty_in_p.append(w_text)
+
+                if not text and len(child_t_elements_dont_have_empty_in_p) == 1:
+                    grand_parent.getparent().remove(grand_parent)
+                else:
+                    self.__fill_text(merge_field=merge_field, parent=parent, text=text)
 
     def __merge_embossed_table(self, field_name, embossed_table_info):
 
-        text = str(embossed_table_info['value'])
-
         detail = self.embossed_table_field_name__details[field_name]
-        table = detail['embossed_table']
-        merge_field = detail['merge_field']
-        cells = table.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tc')
-
-        # Dữ liệu nhập dài hơn số ô đang có sẽ không được điền vào
-        if len(text) > len(cells):
-            return
-
-        # Điền text vào ô
-        # tc(cell) -> p -> r -> t(text)
-        characters = [t for t in text]
-        for index in range(len(characters)):
-            if characters[index] in BYPASS_SEPARATOR_CHARACTERS:  # Bỏ qua nếu là ký tự phân cách
-                continue
-            p_node = cells[index].find(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}p')
-            r_node = Element(f'{{{NAMESPACE_WORDPROCESSINGML}}}r')
-            t_node = Element(f'{{{NAMESPACE_WORDPROCESSINGML}}}t')
-            t_node.text = characters[index]
-
-            r_node.append(t_node)
-            p_node.append(r_node)
-
-        p = merge_field.getparent()
-        p.remove(merge_field)
+        self.__fill_embossed_table(
+            merge_field=detail['merge_field'],
+            parent=detail['merge_field'].getparent(),
+            embossed_table_obj=detail['embossed_table'],
+            need_to_checked_values=embossed_table_info
+        )
 
     def __merge_checkbox(self, field_name, need_to_checked_values, is_add_extend_text=False):
         for group_checkbox_detail in self.checkbox_field_name__list_group_checkbox_details[field_name]:
@@ -571,40 +676,65 @@ class MergeField:
         exclude_values = []  # exclude values for 'Khác' checkbox
         is_checked_checkbox = False
 
+        # Trường hợp merge field chỉ có 1 checkbox thì có thể điền True để tick vào checkbox thay vì điền ['abc']
+        if len(checkbox_infos) == 1 and need_to_checked_values is True \
+                and checkbox_infos[0]['checkbox_obj'].text == CHECKBOX_UNCHECKED_TEXT:
+            checkbox_infos[0]['checkbox_obj'].text = CHECKBOX_CHECKED_TEXT
+            is_checked_checkbox = True
+            others_need_to_checked_values = None
+
         # Trường hợp có extend text cho checkbox:
-        if is_add_extend_text:
-            for need_to_checked_value in need_to_checked_values['value']:
-                for checkbox_info in checkbox_infos:
-                    is_checked_checkbox = False
-                    if need_to_checked_value['option'].lower() == checkbox_info['value'].lower():
-                        # skip if checkbox is checked
-                        if checkbox_info['checkbox_obj'].text == CHECKBOX_CHECKED_TEXT:
-                            continue
+        elif is_add_extend_text:
+            # trường hợp extend data cho duy nhất 1 checkbox sử dụng true để điền giá trị
+            if len(checkbox_infos) == 1 and \
+                    isinstance(need_to_checked_values['value'], dict) and \
+                    need_to_checked_values['value']['option'] is True:
+                checkbox_infos[0]['checkbox_obj'].text = CHECKBOX_CHECKED_TEXT
 
-                        checkbox_info['checkbox_obj'].text = CHECKBOX_CHECKED_TEXT
-                        is_checked_checkbox = True
+                is_checked_checkbox = True
+                others_need_to_checked_values = None
 
-                        self.__set_text_for_t_element(
-                            element=checkbox_info['value_obj'],
-                            text=checkbox_info['original_value'].replace(
-                                checkbox_info['value'],
-                                f"{checkbox_info['value']} {need_to_checked_value['extend_data']}"
+                self.__set_text_for_t_element(
+                    element=checkbox_infos[0]['value_obj'],
+                    text=checkbox_infos[0]['original_value'].replace(
+                        checkbox_infos[0]['value'],
+                        f"{checkbox_infos[0]['value']} {need_to_checked_values['value']['extend_data']}"
+                    )
+                )
+
+            else:
+                for need_to_checked_value in need_to_checked_values['value']:
+                    for checkbox_info in checkbox_infos:
+                        is_checked_checkbox = False
+                        if need_to_checked_value['option'].lower() == checkbox_info['value'].lower():
+                            # skip if checkbox is checked
+                            if checkbox_info['checkbox_obj'].text == CHECKBOX_CHECKED_TEXT:
+                                continue
+
+                            checkbox_info['checkbox_obj'].text = CHECKBOX_CHECKED_TEXT
+                            is_checked_checkbox = True
+
+                            self.__set_text_for_t_element(
+                                element=checkbox_info['value_obj'],
+                                text=checkbox_info['original_value'].replace(
+                                    checkbox_info['value'],
+                                    f"{checkbox_info['value']} {need_to_checked_value['extend_data']}"
+                                )
                             )
-                        )
 
-                        exclude_values.append(need_to_checked_value['option'])
+                            exclude_values.append(need_to_checked_value['option'])
 
-                        # break loop -> continue to next need_to_checked_value
-                        break
+                            # break loop -> continue to next need_to_checked_value
+                            break
 
-            for value in self.checkbox_field_name__values[field_name]:
-                exclude_values.append(value)
+                for value in self.checkbox_field_name__values[field_name]:
+                    exclude_values.append(value)
 
-            options = [need_to_checked_value['option'] for need_to_checked_value in need_to_checked_values['value']]
+                options = [need_to_checked_value['option'] for need_to_checked_value in need_to_checked_values['value']]
 
-            others_need_to_checked_values = list(
-                set(options).difference(set(exclude_values))
-            )
+                others_need_to_checked_values = list(
+                    set(options).difference(set(exclude_values))
+                )
 
         # Trường hợp chỉ là checkbox bình thường, không có extend text:
         else:
@@ -637,7 +767,7 @@ class MergeField:
         # replace merge_field with need to checked values and check 'Khác' checkbox (if exist)
         if others_need_to_checked_values:
             for checkbox_info in checkbox_infos:
-                if checkbox_info['value'].lower() == 'khác:':
+                if checkbox_info['value'].lower() in ['khác:', 'khác/other:']:
                     checkbox_info['checkbox_obj'].text = CHECKBOX_CHECKED_TEXT
                     is_checked_checkbox = True
 
@@ -667,6 +797,7 @@ class MergeField:
     def __fill_text(self, merge_field, parent, text):
         text = text or ''  # text might be None
 
+
         # preserve new lines in replacement text
         text_parts = str(text).split('\n')
         nodes = []
@@ -685,6 +816,35 @@ class MergeField:
 
         parent.remove(merge_field)  # remove old merge field element due to it is replaced by new text in nodes
 
+    def __fill_embossed_table(self, merge_field, parent, embossed_table_obj, need_to_checked_values):
+        text = str(need_to_checked_values['value'])
+
+        cells = embossed_table_obj.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tc')
+
+        # Dữ liệu nhập dài hơn số ô đang có sẽ không được điền vào
+        if len(text) > len(cells):
+            return
+
+        # Điền text vào ô
+        # tc(cell) -> p -> r -> t(text)
+        characters = [character for character in text]
+        for index in range(len(characters)):
+            if characters[index] in EMBOSSED_TABLE_BYPASS_SEPARATOR_CHARACTERS:  # Bỏ qua nếu là ký tự phân cách
+                continue
+            p_node = cells[index].find(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}p')
+            r_node = Element(f'{{{NAMESPACE_WORDPROCESSINGML}}}r')
+            t_node = Element(f'{{{NAMESPACE_WORDPROCESSINGML}}}t')
+            t_node.text = characters[index]
+
+            r_node.append(t_node)
+            p_node.append(r_node)
+
+        self.__fill_text(
+            merge_field=merge_field,
+            parent=parent,
+            text=""
+        )
+
     @staticmethod
     def __set_text_for_t_element(element, text):
         element.text = text
@@ -693,18 +853,28 @@ class MergeField:
 
     @staticmethod
     def __is_valid_need_to_checked_values_for_checkbox(value_need_to_check):
-        if isinstance(value_need_to_check, list) \
-                and (not value_need_to_check or (value_need_to_check and all(isinstance(value, str)
-                                                                             for value in value_need_to_check))):
+        if isinstance(value_need_to_check, bool) \
+                or (isinstance(value_need_to_check, list) and (not value_need_to_check or (
+                value_need_to_check and all(isinstance(value, str) for value in value_need_to_check)))):
             return True
         return False
 
     @staticmethod
     def __is_valid_need_to_checked_values_for_extend_text_checkbox(value_need_to_check):
         if isinstance(value_need_to_check, dict) and \
-                ('type' in value_need_to_check and value_need_to_check['type'] == MERGE_FIELD_TYPE_EXTEND_TEXT_CHECKBOX) and \
-                ('value' in value_need_to_check and isinstance(value_need_to_check['value'], list)):
+                ('type' in value_need_to_check and value_need_to_check[
+                    'type'] == MERGE_FIELD_TYPE_EXTEND_TEXT_CHECKBOX) and 'value' in value_need_to_check:
 
+            # kiểm tra 1 checkbox có extend data
+            if isinstance(value_need_to_check['value'], dict) \
+                    and isinstance(value_need_to_check['value']['option'], bool) and \
+                    ('extend_data' in value_need_to_check['value'] and isinstance(
+                        value_need_to_check['value']['extend_data'], str)):
+                return True
+
+            # kiểm tra check box có extend data
+            if not isinstance(value_need_to_check['value'], list):
+                return False
             for value in value_need_to_check['value']:
                 if ('option' not in value) or ('option' in value and not isinstance(value['option'], str)) or \
                         ('extend_data' not in value) or (

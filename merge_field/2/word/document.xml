@@ -1,0 +1,3814 @@
+<w:document xmlns:o="urn:schemas-microsoft-com:office:office"
+            xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+            xmlns:v="urn:schemas-microsoft-com:vml"
+            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:w10="urn:schemas-microsoft-com:office:word"
+            xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+            xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+            xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+            xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" mc:Ignorable="w14 wp14">
+    <w:body>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="10467" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="1628"/>
+                <w:gridCol w:w="8838"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr>
+                    <w:trHeight w:val="1557" w:hRule="atLeast"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1628" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="14"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="14"/>
+                            </w:rPr>
+                            <w:drawing>
+                                <wp:anchor behindDoc="1" distT="0" distB="0" distL="114300" distR="114300" simplePos="0"
+                                           locked="0" layoutInCell="1" allowOverlap="1" relativeHeight="2">
+                                    <wp:simplePos x="0" y="0"/>
+                                    <wp:positionH relativeFrom="margin">
+                                        <wp:posOffset>-68580</wp:posOffset>
+                                    </wp:positionH>
+                                    <wp:positionV relativeFrom="margin">
+                                        <wp:posOffset>11430</wp:posOffset>
+                                    </wp:positionV>
+                                    <wp:extent cx="898525" cy="890270"/>
+                                    <wp:effectExtent l="0" t="0" r="0" b="0"/>
+                                    <wp:wrapSquare wrapText="bothSides"/>
+                                    <wp:docPr id="1" name="Picture 2"
+                                              descr="D:\Users\loandy\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Outlook\T665U6SC\LOGO DOC - XANH - VIET (2).png"/>
+                                    <wp:cNvGraphicFramePr>
+                                        <a:graphicFrameLocks
+                                                xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                                                noChangeAspect="1"/>
+                                    </wp:cNvGraphicFramePr>
+                                    <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                                        <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                            <pic:pic
+                                                    xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                                <pic:nvPicPr>
+                                                    <pic:cNvPr id="1" name="Picture 2"
+                                                               descr="D:\Users\loandy\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Outlook\T665U6SC\LOGO DOC - XANH - VIET (2).png"/>
+                                                    <pic:cNvPicPr>
+                                                        <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                                                    </pic:cNvPicPr>
+                                                </pic:nvPicPr>
+                                                <pic:blipFill>
+                                                    <a:blip r:embed="rId2"/>
+                                                    <a:stretch>
+                                                        <a:fillRect/>
+                                                    </a:stretch>
+                                                </pic:blipFill>
+                                                <pic:spPr bwMode="auto">
+                                                    <a:xfrm>
+                                                        <a:off x="0" y="0"/>
+                                                        <a:ext cx="898525" cy="890270"/>
+                                                    </a:xfrm>
+                                                    <a:prstGeom prst="rect">
+                                                        <a:avLst/>
+                                                    </a:prstGeom>
+                                                </pic:spPr>
+                                            </pic:pic>
+                                        </a:graphicData>
+                                    </a:graphic>
+                                </wp:anchor>
+                            </w:drawing>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="8838" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:outlineLvl w:val="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:szCs w:val="26"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:szCs w:val="26"/>
+                                <w:shd w:fill="F7CAAC" w:val="clear"/>
+                            </w:rPr>
+                            <w:t>GI&#7844;Y &#272;&#7872; NGH&#7882; C&#7844;P T&#205;N D&#7908;NG TI&#202;U D&#217;NG
+                            </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:outlineLvl w:val="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:szCs w:val="26"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="24"/>
+                                <w:szCs w:val="24"/>
+                            </w:rPr>
+                            <w:t>M&#227; h&#7891; s&#417;:</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:tbl>
+                        <w:tblPr>
+                            <w:tblStyle w:val="TableGrid"/>
+                            <w:tblW w:w="5000" w:type="pct"/>
+                            <w:jc w:val="left"/>
+                            <w:tblInd w:w="0" w:type="dxa"/>
+                            <w:tblCellMar>
+                                <w:top w:w="0" w:type="dxa"/>
+                                <w:left w:w="108" w:type="dxa"/>
+                                <w:bottom w:w="0" w:type="dxa"/>
+                                <w:right w:w="108" w:type="dxa"/>
+                            </w:tblCellMar>
+                            <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0"
+                                       w:lastColumn="0" w:firstRow="1"/>
+                        </w:tblPr>
+                        <w:tblGrid>
+                            <w:gridCol w:w="341"/>
+                            <w:gridCol w:w="340"/>
+                            <w:gridCol w:w="353"/>
+                            <w:gridCol w:w="342"/>
+                            <w:gridCol w:w="341"/>
+                            <w:gridCol w:w="353"/>
+                            <w:gridCol w:w="344"/>
+                            <w:gridCol w:w="344"/>
+                            <w:gridCol w:w="351"/>
+                            <w:gridCol w:w="343"/>
+                            <w:gridCol w:w="345"/>
+                            <w:gridCol w:w="350"/>
+                            <w:gridCol w:w="344"/>
+                            <w:gridCol w:w="345"/>
+                            <w:gridCol w:w="344"/>
+                            <w:gridCol w:w="343"/>
+                            <w:gridCol w:w="344"/>
+                            <w:gridCol w:w="352"/>
+                            <w:gridCol w:w="343"/>
+                            <w:gridCol w:w="346"/>
+                            <w:gridCol w:w="343"/>
+                            <w:gridCol w:w="345"/>
+                            <w:gridCol w:w="343"/>
+                            <w:gridCol w:w="345"/>
+                            <w:gridCol w:w="337"/>
+                        </w:tblGrid>
+                        <w:tr>
+                            <w:trPr>
+                                <w:trHeight w:val="432" w:hRule="atLeast"/>
+                            </w:trPr>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="341" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="340" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="353" w:type="dxa"/>
+                                    <w:tcBorders>
+                                        <w:top w:val="nil"/>
+                                        <w:bottom w:val="nil"/>
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                        <w:t>-</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="342" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="341" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="353" w:type="dxa"/>
+                                    <w:tcBorders>
+                                        <w:top w:val="nil"/>
+                                        <w:bottom w:val="nil"/>
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                        <w:t>-</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="344" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="344" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="351" w:type="dxa"/>
+                                    <w:tcBorders>
+                                        <w:top w:val="nil"/>
+                                        <w:bottom w:val="nil"/>
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                        <w:t>-</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="343" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="345" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="350" w:type="dxa"/>
+                                    <w:tcBorders>
+                                        <w:top w:val="nil"/>
+                                        <w:bottom w:val="nil"/>
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                        <w:t>-</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="344" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="345" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="344" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="343" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="344" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="352" w:type="dxa"/>
+                                    <w:tcBorders>
+                                        <w:top w:val="nil"/>
+                                        <w:bottom w:val="nil"/>
+                                    </w:tcBorders>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                        <w:t>-</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="343" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="346" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="343" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="345" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="343" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="345" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="337" w:type="dxa"/>
+                                    <w:tcBorders/>
+                                    <w:vAlign w:val="center"/>
+                                </w:tcPr>
+                                <w:p>
+                                    <w:pPr>
+                                        <w:pStyle w:val="05number1"/>
+                                        <w:numPr>
+                                            <w:ilvl w:val="0"/>
+                                            <w:numId w:val="0"/>
+                                        </w:numPr>
+                                        <w:spacing w:before="0" w:after="60"/>
+                                        <w:ind w:left="0" w:hanging="0"/>
+                                        <w:jc w:val="center"/>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:sz w:val="22"/>
+                                            <w:szCs w:val="22"/>
+                                        </w:rPr>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                        </w:tr>
+                    </w:tbl>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="14"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="14"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">(N&#258;M-TH&#193;NG-NG&#192;Y-GI&#7900;-M&#195; NH&#194;N VI&#202;N-M&#195; KH&#193;CH H&#192;NG)  </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;hoso&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="10457" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="6669"/>
+                <w:gridCol w:w="3787"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6669" w:type="dxa"/>
+                        <w:tcBorders/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="6690" w:leader="none"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">H&#7885; v&#224; t&#234;n2222: </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;hovaten2&#187;</w:t>
+                            <w:t></w:t>
+                            <w:tab/>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3787" w:type="dxa"/>
+                        <w:tcBorders/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="6690" w:leader="none"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">H&#7885; v&#224; t&#234;n3333: </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;hovaten3&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="3"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">H&#7885; v&#224; t&#234;n: </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+                <w:t>&#171;hovaten&#187;</w:t>
+                <w:t></w:t>
+                <w:t>123123213</w:t>
+                <w:t></w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="10457" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="10457"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="10457" w:type="dxa"/>
+                        <w:tcBorders/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>555555555555</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr>
+                <w:trPr>
+                    <w:trHeight w:val="326" w:hRule="atLeast"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="10457" w:type="dxa"/>
+                        <w:tcBorders/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="ListParagraph"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:contextualSpacing/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:bookmarkStart w:id="1" w:name="__DdeLink__792_4150579324"/>
+                        <w:bookmarkStart w:id="2" w:name="__DdeLink__2469_29558235692"/>
+                        <w:bookmarkEnd w:id="2"/>
+                        <w:bookmarkEnd w:id="1"/>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="ListParagraph"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="1"/>
+                            </w:numPr>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:contextualSpacing/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:bookmarkStart w:id="3" w:name="__DdeLink__792_41505793241"/>
+                        <w:bookmarkStart w:id="4" w:name="__DdeLink__2469_295582356921"/>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:bookmarkEnd w:id="4"/>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:bookmarkEnd w:id="3"/>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                            <w:t>&#171;nhom.a444224&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal"/>
+                <w:rPr/>
+            </w:pPr>
+            <w:r>
+                <w:rPr/>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="10457" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="5228"/>
+                <w:gridCol w:w="5228"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5228" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>1312312312434fgfgfg</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5228" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:left w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>1312312312434fgfgfg</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr>
+                <w:trPr>
+                    <w:trHeight w:val="326" w:hRule="atLeast"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5228" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="ListParagraph"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:contextualSpacing/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:bookmarkStart w:id="5" w:name="__DdeLink__2469_2955823569"/>
+                        <w:bookmarkEnd w:id="5"/>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5228" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:left w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="ListParagraph"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="1"/>
+                            </w:numPr>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:contextualSpacing/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:bookmarkStart w:id="6" w:name="__DdeLink__2469_29558235691"/>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:bookmarkEnd w:id="6"/>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Times New Roman" w:cs="Times New Roman"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nhom.a222&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+            <w:bookmarkStart w:id="7" w:name="_GoBack"/>
+            <w:bookmarkStart w:id="8" w:name="_GoBack"/>
+            <w:bookmarkEnd w:id="8"/>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="10457" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="10457"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="10457" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>Thu nh&#7853;p t&#7915;:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> L&#432;&#417;ng</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Cho thu&#234; TS</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="19"/>
+                                <w:szCs w:val="19"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Kinh doanh </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>kh&#225;c:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="19"/>
+                                <w:szCs w:val="19"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;thunhap&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="20914" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="10457"/>
+                <w:gridCol w:w="10456"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="10457" w:type="dxa"/>
+                        <w:tcBorders/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>Thu nh&#7853;p t&#7915;:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> L&#432;&#417;ng</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Cho thu&#234; TS</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="19"/>
+                                <w:szCs w:val="19"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Kinh doanh</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="19"/>
+                                <w:szCs w:val="19"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;thunhap2&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="10456" w:type="dxa"/>
+                        <w:tcBorders/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="10457" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="10457"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="10457" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                        <w:highlight w:val="lightGray"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:highlight w:val="lightGray"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> &#272;&#7891;ng ch&#7911; s&#7903; h&#7919;u  </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:highlight w:val="lightGray"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;dongsohuu&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:bCs/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="19"/>
+                    <w:szCs w:val="19"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="19"/>
+                    <w:szCs w:val="19"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="19"/>
+                    <w:szCs w:val="19"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="19"/>
+                    <w:szCs w:val="19"/>
+                </w:rPr>
+                <w:t>Th&#244;ng tin ng&#432;&#7901;i li&#234;n h&#7879; khi c&#7847;n:</w:t>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="10490" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="108" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="0000" w:noHBand="0" w:noVBand="0" w:firstColumn="0" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="0"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="628"/>
+                <w:gridCol w:w="3057"/>
+                <w:gridCol w:w="1843"/>
+                <w:gridCol w:w="3541"/>
+                <w:gridCol w:w="1421"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="628" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>STT</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3057" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>H&#7885; v&#224; t&#234;n</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1843" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>M&#7889;i quan h&#7879; v&#7899;i ng&#432;&#7901;i vay</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3541" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#272;&#7883;a ch&#7881; li&#234;n l&#7841;c</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1421" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>S&#7889; &#273;i&#7879;n tho&#7841;i li&#234;n l&#7841;c</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="628" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>1</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3057" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nhom.a&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                                <w:lang w:val="vi-VN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Nam</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> N&#7919;</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                            <w:t>&#171;nhom.a.2&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1843" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nhom.b&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3541" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nhom.c&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1421" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nhom.d&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="628" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>n</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3057" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nguoilienlac.a&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1843" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nguoilienlac.b&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3541" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nguoilienlac.c&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1421" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;nguoilienlac.d&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="628" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:bCs/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>n</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3057" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>Nguyen V&#259;n C</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1843" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>Anh</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3541" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>123 Tran Hung Dao</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1421" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="Normal"/>
+                            <w:spacing w:lineRule="auto" w:line="276" w:before="0" w:after="0"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Dotum"/>
+                                <w:b/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>0123456789</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="TableGrid"/>
+                <w:tblW w:w="10467" w:type="dxa"/>
+                <w:jc w:val="left"/>
+                <w:tblInd w:w="0" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="0" w:type="dxa"/>
+                    <w:left w:w="108" w:type="dxa"/>
+                    <w:bottom w:w="0" w:type="dxa"/>
+                    <w:right w:w="108" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04a0" w:noHBand="0" w:noVBand="1" w:firstColumn="1" w:lastRow="0" w:lastColumn="0"
+                           w:firstRow="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="3477"/>
+                <w:gridCol w:w="6989"/>
+            </w:tblGrid>
+            <w:tr>
+                <w:trPr/>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3477" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>Gi&#7899;i t&#237;nh:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Nam</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> N&#7919;</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                            <w:t>&#171;gioitinh&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6989" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                    </w:tcPr>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>S&#7889; t&#224;i kho&#7843;n:</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="5040" w:leader="dot"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="720" w:hanging="360"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Th&#7867; n&#7897;i &#273;&#7883;a:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="5040" w:leader="dot"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="720" w:hanging="360"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Th&#7867; ghi n&#7907;:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="5040" w:leader="dot"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="720" w:hanging="360"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Th&#7867; t&#237;n d&#7909;ng: </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;sotaikhoan&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="0" w:hanging="0"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>S&#7889; t&#224;i kho&#7843;n:</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="5040" w:leader="dot"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="720" w:hanging="360"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Th&#7867; n&#7897;i &#273;&#7883;a:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="5040" w:leader="dot"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="720" w:hanging="360"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Th&#7867; ghi n&#7907;:</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                    </w:p>
+                    <w:p>
+                        <w:pPr>
+                            <w:pStyle w:val="05number1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="0"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="clear" w:pos="720"/>
+                                <w:tab w:val="left" w:pos="5040" w:leader="dot"/>
+                            </w:tabs>
+                            <w:spacing w:before="0" w:after="60"/>
+                            <w:ind w:left="360" w:hanging="360"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:sdt>
+                            <w:sdtPr>
+                                <w14:checkbox>
+                                    <w14:checked w:val=""/>
+                                    <w14:checkedState w:val=""/>
+                                    <w14:uncheckedState w:val=""/>
+                                </w14:checkbox>
+                            </w:sdtPr>
+                            <w:sdtContent>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:eastAsia="MS Gothic" w:ascii="MS Gothic" w:hAnsi="MS Gothic"/>
+                                        <w:sz w:val="20"/>
+                                    </w:rPr>
+                                    <w:t>&#9744;</w:t>
+                                </w:r>
+                            </w:sdtContent>
+                        </w:sdt>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Th&#7867; t&#237;n d&#7909;ng: </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:tab/>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="FF0000"/>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                            <w:t>&#171;sotaikhoan2&#187;</w:t>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="05number1"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:spacing w:before="0" w:after="60"/>
+                <w:ind w:left="0" w:hanging="0"/>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="14"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal"/>
+                <w:rPr>
+                    <w:lang w:val="vi-VN"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:lang w:val="vi-VN"/>
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal"/>
+                <w:widowControl/>
+                <w:bidi w:val="0"/>
+                <w:spacing w:before="0" w:after="180"/>
+                <w:jc w:val="left"/>
+                <w:rPr/>
+            </w:pPr>
+            <w:r>
+                <w:rPr/>
+            </w:r>
+        </w:p>
+        <w:sectPr>
+            <w:headerReference w:type="default" r:id="rId3"/>
+            <w:footerReference w:type="default" r:id="rId4"/>
+            <w:type w:val="nextPage"/>
+            <w:pgSz w:w="11906" w:h="16838"/>
+            <w:pgMar w:left="720" w:right="720" w:header="426" w:top="1134" w:footer="0" w:bottom="1134" w:gutter="0"/>
+            <w:pgNumType w:fmt="decimal"/>
+            <w:formProt w:val="false"/>
+            <w:textDirection w:val="lrTb"/>
+            <w:docGrid w:type="default" w:linePitch="360" w:charSpace="0"/>
+        </w:sectPr>
+    </w:body>
+</w:document>

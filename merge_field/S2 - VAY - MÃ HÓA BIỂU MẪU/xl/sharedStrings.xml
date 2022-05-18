@@ -1,0 +1,5935 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="3028" uniqueCount="765">
+    <si>
+        <t>Bùi Tường Minh Anh</t>
+    </si>
+    <si>
+        <t>C2</t>
+    </si>
+    <si>
+        <t>Giám đốc CPC</t>
+    </si>
+    <si>
+        <t>Vũ Văn Cường</t>
+    </si>
+    <si>
+        <t>Giám đốc CPC miền nam</t>
+    </si>
+    <si>
+        <t>Trần Thị Diễm Trang</t>
+    </si>
+    <si>
+        <t>Trưởng phòng thẩm định cá nhân miền Nam</t>
+    </si>
+    <si>
+        <t>Trương Thị Mai Trinh</t>
+    </si>
+    <si>
+        <t>Trưởng phòng thẩm định SME miền Nam</t>
+    </si>
+    <si>
+        <t>Huỳnh Khắc Chương</t>
+    </si>
+    <si>
+        <t>C3</t>
+    </si>
+    <si>
+        <t>Trưởng bộ phận thẩm định cá nhân miền Nam</t>
+    </si>
+    <si>
+        <t>Bùi Hải Thiên Sơn</t>
+    </si>
+    <si>
+        <t>Nguyễn Linh Sơn</t>
+    </si>
+    <si>
+        <t>C4</t>
+    </si>
+    <si>
+        <t>Hoàng Châu Tuấn</t>
+    </si>
+    <si>
+        <t>Trưởng bộ phận thẩm định SME miền Nam</t>
+    </si>
+    <si>
+        <t>Trần Thị Hồng Ngân</t>
+    </si>
+    <si>
+        <t>C5</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">NGÂN HÀNG TMCP SÀI GÒN
+KHỐI PHÊ DUYỆT TD &amp; XLN
+</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>PHÒNG PHÊ DUYỆT TD KHCN</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>Độc lập – Tự do – Hạnh phúc</t>
+        </r>
+    </si>
+    <si>
+        <t>Ghi chú công thức</t>
+    </si>
+    <si>
+        <t>Quy định màu:</t>
+    </si>
+    <si>
+        <t>Màu đỏ</t>
+    </si>
+    <si>
+        <t>Tự nhập liệu</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF000000"/>
+                <rFont val="Times New Roman"/>
+            </rPr>
+            <t>Số:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+            </rPr>
+            <t>S2.A.X.T.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Tp Hồ Chí Minh, </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.T.2</t>
+        </r>
+    </si>
+    <si>
+        <t>Hệ thống cập nhật ngày hiện tại</t>
+    </si>
+    <si>
+        <t>Màu xanh dương</t>
+    </si>
+    <si>
+        <t>Mapping từ Tab khác</t>
+    </si>
+    <si>
+        <t>TỜ TRÌNH TÁI THẨM ĐỊNH</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Màu xanh </t>
+    </si>
+    <si>
+        <t>Hệ thống chạy công thức cài đặt sẵn</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">V/v cấp tín dụng đối với khách hàng </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.13&amp;" - "&amp;S1.A.I.2.1&amp;" - "&amp;S1.A.I.3.1</t>
+        </r>
+    </si>
+    <si>
+        <t>Màu đen</t>
+    </si>
+    <si>
+        <t>Chọn dạng Droplist</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>Kính gửi</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>:</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="15"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t xml:space="preserve"> Tổng Giám đốc</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">­ Căn cứ Tờ trình thẩm định tín dụng số </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.T.3</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t xml:space="preserve">, ngày </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.T.4</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t xml:space="preserve"> v/v cấp tín dụng đối với KH </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.13</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF66FF66"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>&amp;" - "&amp;</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.2.1</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF66FF66"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>&amp;" - "&amp;</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.3.1</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t xml:space="preserve"> của</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S1.A.I.1.5</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF66FF66"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>&amp;" - "&amp;</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.T.6</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>;</t>
+        </r>
+    </si>
+    <si>
+        <t>­ Căn cứ hồ sơ do ĐVKD cung cấp.</t>
+    </si>
+    <si>
+        <t>1. Thông tin khách hàng:</t>
+    </si>
+    <si>
+        <t>1.1. Thông tin khách hàng vay vốn:</t>
+    </si>
+    <si>
+        <t>Tên khách hàng vay</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>=</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.13</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>&amp;" - "&amp;</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.2.1</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>&amp;" - "&amp;</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.3.1</t>
+        </r>
+    </si>
+    <si>
+        <t>Đặt công thức kết hợp nhiều tên KH và người đồng vay; nối với nhau bằng dấu " - "</t>
+    </si>
+    <si>
+        <t>Người vay chính</t>
+    </si>
+    <si>
+        <t>S1.A.I.1.13</t>
+    </si>
+    <si>
+        <t>Đặt công thức: Trường hợp chỉ có 1 tên khách hàng vay thì ẩn dòng này</t>
+    </si>
+    <si>
+        <t>Năm sinh</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>=Year(</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.19</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Tuổi:</t>
+    </si>
+    <si>
+        <r>
+            <t>=Year(Today) - Year(</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.19</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Chỉ xuất hiện năm</t>
+    </si>
+    <si>
+        <t>Số CMND/CCCD/HC</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">S1.A.I.1.2 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">(hoặc trường giấy tờ tùy thân chính, có thể là </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.9</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Tình trạng hôn nhân</t>
+    </si>
+    <si>
+        <t>S1.A.I.2</t>
+    </si>
+    <si>
+        <t>Vợ chồng/người đồng vay</t>
+    </si>
+    <si>
+        <t>Tên</t>
+    </si>
+    <si>
+        <t>S1.A.I.2.1</t>
+    </si>
+    <si>
+        <t>Đặt công thức: + Trường hợp chỉ có 1 tên khách hàng vay thì ẩn dòng này
+            + Trường hợp mỗi người đồng vay thì xuất hiện mỗi dòng tương ứng
+        </t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>=Year(</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>S1.A.I.2.4</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t>=Year(Today) - Year(</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.2.4</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Chủ TSBĐ</t>
+    </si>
+    <si>
+        <t>S1.A.V.5.1</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Số dòng mapping tương ứng với số dòng thông tin nhập liệu tại tab pháp lý của ĐVKD
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Chỉ hiển thị với chủ TSBĐ là bên thứ 3</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>=Year(</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>S1.A.V.4.2</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t>=Year(Today) - Year(</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.4.2</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Quan hệ với KH</t>
+    </si>
+    <si>
+        <t>S1.A.V.5.13</t>
+    </si>
+    <si>
+        <t>Số người phụ thuộc</t>
+    </si>
+    <si>
+        <t>Trên 18 tuổi:</t>
+    </si>
+    <si>
+        <t>S1.A.I.1.34</t>
+    </si>
+    <si>
+        <t>Dưới 18 tuổi:</t>
+    </si>
+    <si>
+        <t>S1.A.I.1.33</t>
+    </si>
+    <si>
+        <t>1.2. Hồ sơ pháp lý:</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Hồ sơ pháp lý </t>
+    </si>
+    <si>
+        <t>S2.A.X.1.2.1</t>
+    </si>
+    <si>
+        <t>S2.A.X.1.2.2</t>
+    </si>
+    <si>
+        <t>Droplist: Đầy đủ/ Chưa đầy đủ</t>
+    </si>
+    <si>
+        <t xml:space="preserve">1.3. Lịch sử Quan hệ với TCTD: </t>
+    </si>
+    <si>
+        <t>Thông tin CIC ngày:</t>
+    </si>
+    <si>
+        <t>S2.A.V.1.1</t>
+    </si>
+    <si>
+        <t>Flexcube ngày:</t>
+    </si>
+    <si>
+        <t>S2.A.V.1.2</t>
+    </si>
+    <si>
+        <t>THÔNG TIN KHOẢN VAY</t>
+    </si>
+    <si>
+        <t>ĐVT: Triệu đồng</t>
+    </si>
+    <si>
+        <t>TT</t>
+    </si>
+    <si>
+        <t>Tên tổ chức tín dụng</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Thời hạn
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="11"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(tháng)</t>
+        </r>
+    </si>
+    <si>
+        <t>Số tiền cấp TD</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Số dư thực tế quy đổi </t>
+    </si>
+    <si>
+        <t>Nhóm nợ</t>
+    </si>
+    <si>
+        <t>Tài sản bảo đảm</t>
+    </si>
+    <si>
+        <t>Tên TS</t>
+    </si>
+    <si>
+        <t>Giá trị</t>
+    </si>
+    <si>
+        <t>Tên KH: S1.A.I.1.13</t>
+    </si>
+    <si>
+        <t>Khoản vay</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.1.1</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.1.2</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.1.3</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.1.4</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.1.5</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.1.6</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.1.7</t>
+    </si>
+    <si>
+        <t>Số dòng mapping tương ứng với số dòng thông tin nhập liệu tại tab QHTD của NVTTĐ</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.2.1</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.2.2</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.2.3</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.2.4</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.2.5</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.2.6</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.2.7</t>
+    </si>
+    <si>
+        <t>Thẻ tín dụng</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.3.1</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.3.2</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.3.3</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.3.4</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.3.5</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.3.6</t>
+    </si>
+    <si>
+        <t>-</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.4.1</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.4.2</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.4.3</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.4.4</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.4.5</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.1.4.6</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Tên người đồng vay: S1.A.I.2.1 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(Tương tự KH vay chính)</t>
+        </r>
+    </si>
+    <si>
+        <t>Tổng cộng</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.5.1</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.5.2</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đánh giá:</t>
+        </r>
+    </si>
+    <si>
+        <t>S2.A.V.2.5.4</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.5.5</t>
+    </si>
+    <si>
+        <t>1.4.  Nhóm khách hàng liên quan theo quy định pháp luật:</t>
+    </si>
+    <si>
+        <t>Droplist: Có phát sinh / Không phát sinh
+            Nếu chọn "Có phát sinh" thì hiện bảng bên dưới
+        </t>
+    </si>
+    <si>
+        <t>Tên KH</t>
+    </si>
+    <si>
+        <t>CMND/ ĐKKD</t>
+    </si>
+    <si>
+        <t>Dư nợ</t>
+    </si>
+    <si>
+        <t>Mối quan hệ</t>
+    </si>
+    <si>
+        <t>S2.A.V.3.1</t>
+    </si>
+    <si>
+        <t>S1.A.I.6.1_e</t>
+    </si>
+    <si>
+        <t>S1.A.I.6.2_e</t>
+    </si>
+    <si>
+        <t>S2.A.V.3.2</t>
+    </si>
+    <si>
+        <t>S2.A.V.3.3</t>
+    </si>
+    <si>
+        <t>S1.A.I.6.3_e</t>
+    </si>
+    <si>
+        <t>S2.A.V.3.6</t>
+    </si>
+    <si>
+        <t>2. Phân tích, đánh giá Phương án vay vốn:</t>
+    </si>
+    <si>
+        <t>(ĐVT: Triệu đồng)</t>
+    </si>
+    <si>
+        <t>(Phương án bảng A):
+            Sử dụng khi lựa chọn:
+            + Nhóm sản phẩm: Sản xuất Kinh doanh
+            + Hình thức vay: Hạn mức tín dụng
+            + Sản phẩm/Chương trình: thông thường
+        </t>
+    </si>
+    <si>
+        <t>Chỉ tiêu</t>
+    </si>
+    <si>
+        <t>Hiện tại</t>
+    </si>
+    <si>
+        <t>Kế hoạch</t>
+    </si>
+    <si>
+        <t>Ghi chú</t>
+    </si>
+    <si>
+        <t>A</t>
+    </si>
+    <si>
+        <t>Hiệu quả phương án</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.11</t>
+    </si>
+    <si>
+        <t>Doanh thu (1)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.1</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.1_e</t>
+    </si>
+    <si>
+        <t>Tổng Chi phí (2)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.2</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.2_e</t>
+    </si>
+    <si>
+        <t>Lợi nhuận (3)=(1)-(2)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.3</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.3_e</t>
+    </si>
+    <si>
+        <t>B</t>
+    </si>
+    <si>
+        <t>Xác định hạn mức vay</t>
+    </si>
+    <si>
+        <t>Số vòng quay (4)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.4</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.4_e</t>
+    </si>
+    <si>
+        <t>Nhu cầu vốn/vòng quay (5) = (2)/(4)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.5</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.5_e</t>
+    </si>
+    <si>
+        <t>Vốn lưu động ròng (6)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.6</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.6_e</t>
+    </si>
+    <si>
+        <t>Phải trả người bán, vay mượn khác (7)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.7</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.7_e</t>
+    </si>
+    <si>
+        <t>Vốn vay khác (8)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.8</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.8_e</t>
+    </si>
+    <si>
+        <t>Nhu cầu vay tại SCB
+            (9) = (5)-(6)-(7)-(8)
+        </t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.9</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.4_e</t>
+    </si>
+    <si>
+        <t>Tỷ lệ % SCB tài trợ
+            (10) = (9)/(5)
+        </t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.10</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.3.10_e</t>
+    </si>
+    <si>
+        <t>3. Tình hình tài chính của Khách hàng:</t>
+    </si>
+    <si>
+        <t>(ĐVT: Đồng/ tháng)</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Giá trị theo ĐVKD </t>
+    </si>
+    <si>
+        <t>Giá trị theo CVTĐ</t>
+    </si>
+    <si>
+        <t>Tổng thu nhập (A) = (1)+(2)+(3)+(4)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.5.1</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.5</t>
+    </si>
+    <si>
+        <t>Số lượng nguồn thu tương ứng với số lượng khai báo tại tab hồ sơ tài chính của ĐVKD</t>
+    </si>
+    <si>
+        <t>i</t>
+    </si>
+    <si>
+        <t>Người vay chính (1)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.1</t>
+    </si>
+    <si>
+        <t>Thu nhập từ lương</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.1.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(1.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.1_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ HKD</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.3.1_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(2.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.3_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ DN do KH làm chủ</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.4.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(3.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.4</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.4_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ cho thuê BĐS</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.2.1.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.1.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.2.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.2.1_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ cho thuê PTVT</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.2.2.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.1.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.2.2</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.2.2_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ cho thuê TS</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.2.3.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.1.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.2.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.2.3_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ cổ tức, lợi nhuận</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S2.A.VII.2.5.1.1 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(5.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.5</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.5_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ lãi tiền gửi, GTCG</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.6.2_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(6.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.6</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.6_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ lương hưu trí</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.7.3_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(7.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.7</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.7_e</t>
+    </si>
+    <si>
+        <t>Thu nhập từ nguồn thu khác</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.1.8.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(8.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.1.8</t>
+    </si>
+    <si>
+        <t>S1.A.IV.1.8_e</t>
+    </si>
+    <si>
+        <t>ii</t>
+    </si>
+    <si>
+        <t>Người hôn phối (2)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.2</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.1.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(1.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.1_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.3.1_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(2.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.3_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.4.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(3.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.4</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.4_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.2.1.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(1.2.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.2.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.2.1_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.2.2.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(1.2.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.2.2</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.2.2_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.2.3.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(1.2.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.2.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.2.3_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S2.A.VII.2.5.1.2 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(5.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.5</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.5_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.6.2_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(6.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.6</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.6_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.7.3_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(7.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.7</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.7_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.2.8.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(8.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.2.8</t>
+    </si>
+    <si>
+        <t>S1.A.IV.2.8_e</t>
+    </si>
+    <si>
+        <t>iii</t>
+    </si>
+    <si>
+        <t>Người vay đồng vay (3)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.3</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.1.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(1.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.1_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.3.1_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(2.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.3_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.4.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(3.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.4</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.4_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.2.1.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.3.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.2.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.2.1_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.2.2.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.3.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.2.2_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.2.3.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.3.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.2.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.2.3_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S2.A.VII.2.5.1.4 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(5.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.5</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.5_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.6.2_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(6.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.6</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.6_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.7.3_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(7.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.7</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.7_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.3.8.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(8.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.3.8</t>
+    </si>
+    <si>
+        <t>S1.A.IV.3.8_e</t>
+    </si>
+    <si>
+        <t>iv</t>
+    </si>
+    <si>
+        <t>Người đồng trả nợ (4)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.4</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.1.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(1.4)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.1_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.3.1_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(2.4)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.3_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.4.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(3.4)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.4</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.4_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.2.1.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.4.1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.2.1</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.2.1_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.2.2.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.4.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.2.2</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.2.2_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.2.3.2_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(4.4.3)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.2.3</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.2.3_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S2.A.VII.2.5.1.4 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(5.4)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.5</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.5_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.6.2_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(6.4)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.6</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.6_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.7.3_e  </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(7.4)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.7</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.7_e</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S1.A.IV.4.8.3_e </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(8.4)</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.IV.4.8</t>
+    </si>
+    <si>
+        <t>S1.A.IV.4.8_e</t>
+    </si>
+    <si>
+        <t>Tổng chi phí (B)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.5.2</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.11</t>
+    </si>
+    <si>
+        <t>Chi phí sinh hoạt (của vợ chồng KH và 1 con dưới 18 tuổi/ của KH)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.5.3</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.11.1</t>
+    </si>
+    <si>
+        <t>Chi phí trả nợ vay hiện tại</t>
+    </si>
+    <si>
+        <t>S1.A.IV.5.4</t>
+    </si>
+    <si>
+        <t>S2.A.V.2.5.3</t>
+    </si>
+    <si>
+        <t>Kiểm tra lại ĐVKD có trường nhập liệu này không? Nếu không có, NVTTĐ nhập tay theo thông tin trên tờ trình
+            của ĐVKD
+            Số dòng thông tin tương ứng với số dòng thông tin trên tab QHTD của NVTTĐ
+        </t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">+ Tại </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0070C0"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.V.2.1.1.1</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(khoản vay 1)</t>
+        </r>
+    </si>
+    <si>
+        <t>S2.A.VII.2.10.1</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S2.A.V.2.1.1.8 </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(khoản vay 1)</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">+ Tại </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0070C0"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.V.2.1.2.1</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(khoản vay 2)</t>
+        </r>
+    </si>
+    <si>
+        <t>S2.A.VII.2.10.2</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">S2.A.V.2.1.2.8 </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(khoản vay 1)</t>
+        </r>
+    </si>
+    <si>
+        <t xml:space="preserve">+ Chi phí thẻ tín dụng </t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.10.3</t>
+    </si>
+    <si>
+        <t>=Sum(S2.A.V.2.1.0.3)</t>
+    </si>
+    <si>
+        <t>Chi phí khác</t>
+    </si>
+    <si>
+        <t>S1.A.IV.5.5</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.11.4</t>
+    </si>
+    <si>
+        <t>Thu nhập tích lũy (C) = (A) - (B)</t>
+    </si>
+    <si>
+        <t>S1.A.IV.5.6</t>
+    </si>
+    <si>
+        <t>S2.A.VII.2.12</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đánh giá:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0070C0"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VII.2.13</t>
+        </r>
+    </si>
+    <si>
+        <t>Đánh giá tình hình kinh doanh</t>
+    </si>
+    <si>
+        <t>Chỉ hiển thị khi có nguồn thu là HKD</t>
+    </si>
+    <si>
+        <t>Tên cơ sở kinh doanh:</t>
+    </si>
+    <si>
+        <t>S1.A.I.8.1</t>
+    </si>
+    <si>
+        <t>Thời gian kinh doanh:</t>
+    </si>
+    <si>
+        <t>S1.A.I.8.8</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Số ĐKKD: </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.8.3</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Ngày cấp:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S1.A.I.8.6_e</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Nơi cấp:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S1.A.I.8.5_e</t>
+        </r>
+    </si>
+    <si>
+        <t>Ngành nghề kinh doanh:</t>
+    </si>
+    <si>
+        <t>S1.A.I.8.9_e</t>
+    </si>
+    <si>
+        <t>Địa điểm kinh doanh:</t>
+    </si>
+    <si>
+        <t>S1.A.I.8.11_e</t>
+    </si>
+    <si>
+        <t>Phương thức kinh doanh:</t>
+    </si>
+    <si>
+        <t>S2.A.X.3.1</t>
+    </si>
+    <si>
+        <t>Số lượng nhân viên:</t>
+    </si>
+    <si>
+        <t>S2.A.X.3.2</t>
+    </si>
+    <si>
+        <t>Đầu vào:</t>
+    </si>
+    <si>
+        <t>S2.A.X.3.3</t>
+    </si>
+    <si>
+        <t>Đầu ra:</t>
+    </si>
+    <si>
+        <t>S2.A.X.3.4</t>
+    </si>
+    <si>
+        <t>Hiệu quả kinh doanh:</t>
+    </si>
+    <si>
+        <t>S2.A.X.3.5</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đánh giá:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.3.6</t>
+        </r>
+    </si>
+    <si>
+        <t>4. Thông tin về TSĐB:</t>
+    </si>
+    <si>
+        <t>Thông tin TSBĐ</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Trường hợp S1.A.V.2.1.1 là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>QSD là đất và/hoặc Nhà riêng lẻ; QSD đất thuê trong KCN; Nhà Nhiều hộ nhiều tầng; QSĐ có nguồn gốc vừa
+                giao vừa thuê ngoài KCN
+            </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: BĐS tại thửa đất số </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.1.7.1.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">, tờ bản đồ số </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.1.7.1.2</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">, địa chỉ </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.1.1</t>
+        </r>
+    </si>
+    <si>
+        <t>Thông tin TSBĐ của ĐVKD có loại TSBĐ nào thì hiện thông tin loại TSBĐ đó</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Hiện trạng: </t>
+    </si>
+    <si>
+        <t>S2.A.VIII.2.1.2</t>
+    </si>
+    <si>
+        <t>Chủ sở hữu:</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.1</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.1.6</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">(chỉ xuất hiện khi có tick </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>"Không đồng ý"</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> nhận TSBĐ)</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Trường hợp S1.A.V.2.1.1 là</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>QSH CHCC/ Căn hộ chung cư đã hình thành/hình thành tương lai</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Căn hộ chung cư số </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.1.7.4.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">, Block/tháp </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.1.7.4.2</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>,</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">địa chỉ </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.1.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Trường hợp S1.A.V.2.1.1 là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Sạp/Ô TTTM</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: BĐS tại Khu </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.1.7.5.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">, Tầng </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.1.7.5.2</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">, chợ/TTTM </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.1.7.5</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">,địa chỉ </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.1.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">TSBĐ là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Phương tiện vận tải/Động sản</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Phương tiện vận tải/Động sản hiệu </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.2.1.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">; Loại </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.2.1.2</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">; BKS </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.2.4; S2.A.VIII.2.2.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.2.6</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">TSBĐ là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Máy móc thiết bị; Dây chuyền công nghệ</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Loại tài sản </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.3.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">; Số giấy đăng ký </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.3.2</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.3.6</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">TSBĐ là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Vật tư hàng hóa</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Loại tài sản </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.4.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">; Số giấy đăng ký </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.4.2</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.4.6</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">TSBĐ là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Quyền tài sản</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Loại tài sản </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.5.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">; Số giấy đăng ký </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.5.2</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.5.6</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">TSBĐ là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Chứng khoán</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Loại tài sản </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.6.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">; Số giấy đăng ký </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.6.2</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.6.6</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">TSBĐ là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Tài sản khác</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Loại giấy tờ </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.7.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> Số giấy đăng ký </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.V.2.7.2</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.7.6</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">TSBĐ là </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Số dư TKTG/HĐTG/GTCG</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> theo format: Sổ tiết kiệm/ tài khoản tiền gửi số </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.8.1</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> tại SCB</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>.</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không nhận TSBĐ, Lý do:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VIII.2.8.6</t>
+        </r>
+    </si>
+    <si>
+        <t>Ghi chú về TSBĐ</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.4.2</t>
+    </si>
+    <si>
+        <t>5. Ngoại lệ:</t>
+    </si>
+    <si>
+        <t>S1.A.0.3.1</t>
+    </si>
+    <si>
+        <t>Nếu hồ sơ có ngoại lệ: Hiển thị "Có ngoại lệ", Nếu hồ sơ không có ngoại lệ: Hiển thị "Không có ngoại lệ"
+            Nếu có ngoại lệ thì hiện bảng này, không có ngoại lệ thì ẩn đi
+        </t>
+    </si>
+    <si>
+        <t>Mã Ngoại lệ:</t>
+    </si>
+    <si>
+        <t>S1.A.VI.1.2</t>
+    </si>
+    <si>
+        <t>Ngoại lệ:</t>
+    </si>
+    <si>
+        <t>S1.A.VI.1.3</t>
+    </si>
+    <si>
+        <t>Nếu hệ thống có cài đặt mã ngoại lệ và nội dung diễn giải ngoại lệ nguồn từ QLRR</t>
+    </si>
+    <si>
+        <t>(+) thêm ngoại lệ</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Trường hợp có từ 2 ngoại lệ trở lên, user tick vào thêm ngoại lệ sẽ xuất hiện trường để chọn </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Mã ngoại lệ </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>và</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> Ngoại lệ </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(tương tự như dòng trên)</t>
+        </r>
+    </si>
+    <si>
+        <t>Mã Ngoại lệ nhập hệ thống CORE</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.5.2</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">(áp dụng nếu có từ 2 ngoại lệ trở lên - VD: </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">NL01.PL02.TS04 </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Chỉ xuất hiện trong trường hợp có từ 2 ngoại lệ trở lên, hệ thống sẽ tổng hợp dữ liệu từ các mã được chọn để trả về kết quả </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Mã Ngoại lệ nhập hệ thống CORE - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">công thức: </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Mã Ngoại lệ 1</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>&amp;"."&amp;</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Mã Ngoại lệ 2</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>&amp;"."&amp;</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Mã Ngoại lệ 3</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">
+(VD: S1.A.VI.1.2&amp;"."&amp;S1.A.VI.1.2&amp;"."&amp;SS1.A.VI.1.2 )
+Các mã ngoại lệ cách nhau bởi dấu "</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>.</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>"</t>
+        </r>
+    </si>
+    <si>
+        <t>Cơ sở đề xuấtcủa ĐVKD</t>
+    </si>
+    <si>
+        <t>S1.A.VI.1.4</t>
+    </si>
+    <si>
+        <t>Đánh giá của NVTTĐ</t>
+    </si>
+    <si>
+        <t>S2.A.X.5.4</t>
+    </si>
+    <si>
+        <t>6. Xác định thời hạn và khả năng trả nợ khoản vay</t>
+    </si>
+    <si>
+        <t>Vốn dự kiến vay SCB</t>
+    </si>
+    <si>
+        <t>VND</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.4</t>
+    </si>
+    <si>
+        <t>= Vốn vay SCB tại mục 2. Phân tích, đánh giá Phương án vay vốn</t>
+    </si>
+    <si>
+        <t>Vốn dự kiến vay SCB theo đề xuất của CVTĐ</t>
+    </si>
+    <si>
+        <t>Mặc định bằng dòng trên, nhưng nếu khác NVTTĐ có thể sửa lại</t>
+    </si>
+    <si>
+        <t>Thời hạn vay theo đề xuất của CVTĐ</t>
+    </si>
+    <si>
+        <t>Tháng</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.7_e</t>
+    </si>
+    <si>
+        <t>Mặc định bằng thời gian trình của ĐVKD, nhưng nếu khác NVTTĐ có thể sửa lại</t>
+    </si>
+    <si>
+        <t>LSCV tối đa của SCB hiện hành</t>
+    </si>
+    <si>
+        <t>%</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.4.2</t>
+    </si>
+    <si>
+        <t>Mapping thông tin từ tab phương án của NVTTĐ</t>
+    </si>
+    <si>
+        <t>*</t>
+    </si>
+    <si>
+        <t>Kế hoạch trả nợ</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Tiền gốc định kỳ </t>
+    </si>
+    <si>
+        <t>VND/tháng</t>
+    </si>
+    <si>
+        <t>S2.A.VI.3.4.3</t>
+    </si>
+    <si>
+        <t>Tiền gốc kỳ cuối cùng</t>
+    </si>
+    <si>
+        <t>S2.A.VI.3.4.4</t>
+    </si>
+    <si>
+        <t>Tiền lãi + phí (nếu có) kỳ cao nhất</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.4.4</t>
+    </si>
+    <si>
+        <t>Tổng thu nhập dùng để trả nợ hàng tháng</t>
+    </si>
+    <si>
+        <t>= Thu nhập tích lũy theo CVTĐ tại mục 3.Tình hình tài chính của Khách hàng</t>
+    </si>
+    <si>
+        <t>Nghĩa vụ trả nợ lần này trên thu nhập ròng (PNI)</t>
+    </si>
+    <si>
+        <t>S2.A.VII.3.1</t>
+    </si>
+    <si>
+        <t>Cập nhật lại chính sách PNI hay DTI và thiết lập công thức phù hợp</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Đánh giá khả năng thanh toán của KH </t>
+    </si>
+    <si>
+        <t>S2.A.VII.3.2</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đánh giá:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.VII.3.3</t>
+        </r>
+    </si>
+    <si>
+        <t>7. Thẩm định điện thoại:</t>
+    </si>
+    <si>
+        <t>S2.A.X.7.1</t>
+    </si>
+    <si>
+        <t>Droplist: Không yêu cầu thẩm định qua điện thoại/ ô trống</t>
+    </si>
+    <si>
+        <t>Số điện thoại</t>
+    </si>
+    <si>
+        <t>Kết quả</t>
+    </si>
+    <si>
+        <t>S2.A.X.7.2.1</t>
+    </si>
+    <si>
+        <t>S2.A.X.7.2.2</t>
+    </si>
+    <si>
+        <t>S2.A.X.7.2.3</t>
+    </si>
+    <si>
+        <t>(+) thêm thông tin cuộc gọi</t>
+    </si>
+    <si>
+        <t>Có dòng để NVTTĐ thêm thông tin cuộc gọi thực tế</t>
+    </si>
+    <si>
+        <t>8. Đề xuất của NV/CVTĐ:</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> Đồng ý cấp tín dụng</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(S2.A.X.8.1.1)</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="10.199999999999999"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Không đồng ý cấp tín dụng
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>(S2.A.X.8.1.2)</t>
+        </r>
+    </si>
+    <si>
+        <t>Tick box để NVTTĐ chọn, nếu tick chọn "Đồng ý cấp tín dụng" hiển thị từ dòng 189 - 214, nếu tick chọn "Không
+            đồng ý cấp tín dụng" hiển thị dòng 215 - 216
+        </t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">CV TĐTD KHCN đã kiểm tra toàn bộ hồ sơ, chứng từ và tuân theo các quy định khác có liên quan. Dựa trên thông tin thu thập được, CV TĐTD KHCN đề xuất cấp có thẩm quyền phê duyệt V/v cấp tín dụng đối với khách hàng </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.13&amp;" - "&amp;S1.A.I.2.1&amp;" - "&amp;S1.A.I.3.1</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t xml:space="preserve"> theo nội dung sau:</t>
+        </r>
+    </si>
+    <si>
+        <t>Số tiền vay</t>
+    </si>
+    <si>
+        <t>= Vốn dự kiến vay SCB theo đề xuất của CVTĐ tại mục 6</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Tổng hạn mức cấp TD </t>
+    </si>
+    <si>
+        <t>S2.A.X.8.2.1</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Trong đó:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Khoản vay có TSBĐ đề xuất:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.8.2.1.1</t>
+        </r>
+    </si>
+    <si>
+        <t>Điều kiện xuất hiện nếu luồng có TSBĐ =&gt; Điều kiện: Nếu TSBĐ (S1.A.0.2.1=Có)</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Khoản vay không TSBĐ đề xuất:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.8.2.1.2</t>
+        </r>
+    </si>
+    <si>
+        <t>Điều kiện xuất hiện nếu luồng có TSBĐ =&gt; Điều kiện: Nếu TSBĐ (S1.A.0.2.1=Không)</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Dư nợ vay có TSBĐ hiện hữu:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.8.2.1.3</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Dư nợ vay không TSBĐ:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.8.2.1.4</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Thẻ tín dụng:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.8.2.1.5</t>
+        </r>
+    </si>
+    <si>
+        <t>Phương thức vay</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.6_e</t>
+    </si>
+    <si>
+        <t>+ Có nút (ẩn/hiển) để ẩn/hiện trường này trên tờ trình nếu cần</t>
+    </si>
+    <si>
+        <t>Mục đích vay</t>
+    </si>
+    <si>
+        <t>S1.A.III.1.7_e</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">(Phụ lục </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.2.2</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> Thông báo </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.2.3</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Thời hạn vay</t>
+    </si>
+    <si>
+        <t>= Thời hạn vay theo đề xuất của CVTĐ tại mục 6</t>
+    </si>
+    <si>
+        <t>Thời hạn tối đa từng lần rút vốn</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.8_e</t>
+    </si>
+    <si>
+        <t>Hiển thị nếu tab phương án của ĐVKD có thông tin
+            + Có nút (ẩn/hiển) để ẩn/hiện trường này trên tờ trình nếu cần
+        </t>
+    </si>
+    <si>
+        <t>Lãi suất, phí (nếu có)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.1.4.1</t>
+    </si>
+    <si>
+        <t>Hiển thị mặc định nhưng có thể điều chỉnh</t>
+    </si>
+    <si>
+        <t>Phương thức giải ngân</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.13_e</t>
+    </si>
+    <si>
+        <t>Phương thức trả nợ gốc</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.14_e</t>
+    </si>
+    <si>
+        <t>Thời gian ân hạn gốc</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.9_e</t>
+    </si>
+    <si>
+        <t>Phương thức trả nợ lãi</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.15_e</t>
+    </si>
+    <si>
+        <t>Loại TS</t>
+    </si>
+    <si>
+        <t>Thông tin khoản vay</t>
+    </si>
+    <si>
+        <t>Giá trị TS tạm tính</t>
+    </si>
+    <si>
+        <t>Max LTV</t>
+    </si>
+    <si>
+        <t>Số tiền vay tối đa</t>
+    </si>
+    <si>
+        <t>Dư nợ đảm bảo</t>
+    </si>
+    <si>
+        <t>LTV</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.4</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.2.0</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.2.1</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.2.2</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.2.3</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.2.4</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.2.5</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.2.6</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.3.0</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.3.1</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.3.2</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.3.3</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.3.4</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.3.5</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.3.6</t>
+    </si>
+    <si>
+        <t>Ô (4) Dạng droplist: Số tiền vay tối đa/Khoản vay
+            Dòng tổng: Hệ thống tự động tính, nhưng NVTTĐ có thể chỉnh sửa
+        </t>
+    </si>
+    <si>
+        <t>(+) NVTTĐ thêm các dòng thông tin tài sản tương ứng</t>
+    </si>
+    <si>
+        <t>Tổng</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.1.2</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.1.4</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.1.5</t>
+    </si>
+    <si>
+        <t>S2.A.VIII.1.1.6</t>
+    </si>
+    <si>
+        <t>Điều kiện trước giải ngân</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DK1</t>
+    </si>
+    <si>
+        <t>Điều kiện sau giải ngân</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DK2</t>
+    </si>
+    <si>
+        <t>- TSBĐ đang cho thuê, ĐVKD thực hiện ký thỏa thuận ba bên theo Điều 36 Quyết định 119/2018/QĐ-SCB-TGĐ.
+            - ĐVKD xác định hiện trạng TSBĐ, trường hợp đang cho thuê, ĐVKD thực hiện theo Điều 36 QĐ số
+            119/2018/QĐ-SCB-TGĐ.
+            - TSBĐ có CTXD trên đất chưa được chứng nhận sở hữu, ĐVKD thực hiện theo Điều 32 QĐ số 119/2018/QĐ-SCB-TGĐ.
+            - Giải ngân theo tiến độ thanh toán quy định tại HĐ đặt cọc/mua bán BĐS phương án.
+            - KH bổ sung chứng từ chứng minh KH đã thanh toán hết vốn tự có (...... triệu đồng). Trường hợp KH thay đổi
+            giá trị phương án/VTC tham gia thì đảm bảo tỷ lệ vốn tự có tham gia phù hợp quy định sản phẩm
+            - KH bổ sung:
+            + Chứng từ chứng minh KH đã thanh toán hết vốn tự có (200 triệu đồng). Trường hợp KH thay đổi giá trị phương
+            án/VTC tham gia thì đảm bảo tỷ lệ vốn tự có tham gia phù hợp quy định sản phẩm.
+            + KH tất toán khoản vay tại Ngân hàng ACB và đóng thẻ tín dụng tại FE Credit
+        </t>
+    </si>
+    <si>
+        <t>Điều kiện khác</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DK3</t>
+    </si>
+    <si>
+        <t>Điều kiện bán chéo</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.BC</t>
+    </si>
+    <si>
+        <t>Đề xuất:</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DX</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Hiển thị trong Trường hợp Checkbox </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.1.2</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không đồng ý cấp tín dụng</t>
+        </r>
+    </si>
+    <si>
+        <t>Lý do:</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.LD</t>
+    </si>
+    <si>
+        <t>Mã lý do từ chối:</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.M</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>NV/CV TĐTD</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">(Ký, ghi rõ họ tên)
+</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Đồng ý cấp TD
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.1.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">Không đồng ý cấp TD
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.1.2</t>
+        </r>
+    </si>
+    <si>
+        <t>Chữ ký điện tử (nếu có)</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Ý kiến của </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">S2.A.X.9.2.1 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.2.2</t>
+        </r>
+    </si>
+    <si>
+        <t>- Chức danh CKS xuất hiện tương ứng với luồng hồ sơ trên hệ thống (luồng qua bao nhiêu CKS thì có bấy nhiêu
+            phần ý kiến tương ứng với user)
+            - Luồng trình hồ sơ được xác định NVTTĐ chuyển trình cho CKS. Và xác định theo luồng nào thì chỉ hiện phần ý
+            kiến của user CKS đó.
+        </t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đồng ý cấp TD</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.2.3</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không đồng ý cấp TD</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.2.4</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">+ Trường hợp tick vào </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đồng ý cấp tín dụng</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> sẽ hiển thị thông tin bên dưới (số tiền vay/thời hạn vay/ý kiến khác/điều kiện phê duyệt)
++ Trường hợp tick vào </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không đồng ý cấp TD</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> sẽ ẩn trường </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Số tiền vay</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.2.5</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> và </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Thời hạn vay</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.2.6</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> và chỉ hiển thị trường </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Ý kiến khác</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.2.7</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> để ghi rõ lý do từ chối</t>
+        </r>
+    </si>
+    <si>
+        <t>S2.A.X.9.2.5</t>
+    </si>
+    <si>
+        <t>+ Mặc định bằng số tiền do NVTTĐ đề xuất, tuy nhiên CKS có quyền điều chỉnh tay
+            + Giá trị đề xuất tối đa bằng giá trị ĐVKD đề xuất.
+        </t>
+    </si>
+    <si>
+        <t>S2.A.X.9.2.6</t>
+    </si>
+    <si>
+        <t>Mặc định bằng số tiền do NVTTĐ đề xuất, tuy nhiên CKS có quyền điều chỉnh tay</t>
+    </si>
+    <si>
+        <t>Ý kiến khác</t>
+    </si>
+    <si>
+        <t>S2.A.X.9.2.7</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Ý kiến của </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">S2.A.X.9.3.1 </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FF00CC00"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.3.2</t>
+        </r>
+    </si>
+    <si>
+        <t>- Chức danh CPD xuất hiện tương ứng với luồng hồ sơ trên hệ thống (luồng CPD nào thì có phần ý kiến tương ứng
+            với user CPD đó)
+            - Luồng trình hồ sơ được xác định NVTTĐ chuyển trình cho CPD. Và xác định theo luồng nào thì chỉ hiện đúng
+            thông tin phần phê duyệt của user CPD đó.
+        </t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đồng ý cấp TD</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.3.3</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Wingdings"/>
+                <charset val="2"/>
+            </rPr>
+            <t>o</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không đồng ý cấp TD</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.3.4</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">+ Trường hợp tick vào </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đồng ý cấp tín dụng</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> sẽ hiển thị thông tin bên dưới (số tiền vay/thời hạn vay/ý kiến khác/điều kiện phê duyệt)
++ Trường hợp tick vào </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Không đồng ý cấp TD</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> sẽ chỉ hiển thị trường </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Ý kiến khác</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.9.2.7</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve">; </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đề xuất</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> - </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.DX_e</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> và </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Lý do</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> -</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.8.LD_e</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="2"/>
+            </rPr>
+            <t xml:space="preserve"> để ghi rõ lý do từ chối</t>
+        </r>
+    </si>
+    <si>
+        <t>S2.A.X.9.3.5</t>
+    </si>
+    <si>
+        <t>+ Mặc định bằng số tiền do NVTTĐ đề xuất, tuy nhiên CPD có quyền điều chỉnh tay
+            + Giá trị đề xuất tối đa bằng giá trị ĐVKD đề xuất.
+        </t>
+    </si>
+    <si>
+        <t>S2.A.X.9.3.6</t>
+    </si>
+    <si>
+        <t>Mặc định bằng số tiền do NVTTĐ đề xuất, tuy nhiên CPD có quyền điều chỉnh tay</t>
+    </si>
+    <si>
+        <t>S2.A.X.9.3.7</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DK1_e</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DK2_e</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DK3_e</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.BC_e</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.DX_e</t>
+    </si>
+    <si>
+        <t>S2.A.X.8.LD_e</t>
+    </si>
+    <si>
+        <t>Note: Khi hồ sơ luân chuyển qua 1 user CKS/CPD, hệ thống tự động thêm vào 1 phần ý kiến của CKS/CPD tương
+            ứng. Đối với hồ sơ trình Hội đồng tín dụng (Hội đồng không tham gia user trên LOS, phần tên User sẽ do CKS
+            nhập tay theo CPD thực tế
+        </t>
+    </si>
+    <si>
+        <t>QUYẾT ĐỊNH PHÊ DUYỆT TÍN DỤNG
+            (Duyệt mới)
+        </t>
+    </si>
+    <si>
+        <t>CHỌN</t>
+    </si>
+    <si>
+        <t>Loại nghị quyết</t>
+    </si>
+    <si>
+        <t>Phê duyệt</t>
+    </si>
+    <si>
+        <t>Số:</t>
+    </si>
+    <si>
+        <t>- Căn cứ đề xuất chi nhánh/PGD ngày:</t>
+    </si>
+    <si>
+        <t>- Căn cứ Báo cáo thẩm định của CO ngày:</t>
+    </si>
+    <si>
+        <t>Tên khách hàng:</t>
+    </si>
+    <si>
+        <t>Số CIF:</t>
+    </si>
+    <si>
+        <t>Loại khách hàng:</t>
+    </si>
+    <si>
+        <t>Cá nhân</t>
+    </si>
+    <si>
+        <t>Xếp hạng khách hàng:</t>
+    </si>
+    <si>
+        <t>Đơn vị kinh doanh:</t>
+    </si>
+    <si>
+        <t>AO quản lý KH/Sale:</t>
+    </si>
+    <si>
+        <t>Mã DAO của AO/Sale:</t>
+    </si>
+    <si>
+        <t>Chuyên viên thẩm định:</t>
+    </si>
+    <si>
+        <t>Mã DAO của CO:</t>
+    </si>
+    <si>
+        <t>Chuyên gia phê duyệt:</t>
+    </si>
+    <si>
+        <t>Mã DAO của CGPD:</t>
+    </si>
+    <si>
+        <t>Không đồng ý cấp</t>
+    </si>
+    <si>
+        <t>1. Đồng ý cấp mới khoản vay</t>
+    </si>
+    <si>
+        <t>2. Tổng hạn mức tín dụng cấp cho khách hàng bao gồm khoản vay lần này và dư nợ của nhóm khách hàng có liên
+            quan:
+        </t>
+    </si>
+    <si>
+        <t>3. Chi tiết khoản vay</t>
+    </si>
+    <si>
+        <t>Loại hình vay</t>
+    </si>
+    <si>
+        <t>Mục đích vay vốn</t>
+    </si>
+    <si>
+        <t>Ẩn đi nếu không phải là cấp HMTD</t>
+    </si>
+    <si>
+        <t>Lãi suất cho vay</t>
+    </si>
+    <si>
+        <t>Hình thức giải ngân</t>
+    </si>
+    <si>
+        <t>Kỳ hạn trả nợ vay</t>
+    </si>
+    <si>
+        <t>Nợ gốc vay:</t>
+    </si>
+    <si>
+        <t>Nợ lãi vay:</t>
+    </si>
+    <si>
+        <t>Kỳ đầu:</t>
+    </si>
+    <si>
+        <t>Kỳ cuối :</t>
+    </si>
+    <si>
+        <t>4. Tài sản bảo đảm</t>
+    </si>
+    <si>
+        <t>Mô tả TSBĐ</t>
+    </si>
+    <si>
+        <t>Giá trị TSBĐ</t>
+    </si>
+    <si>
+        <t>Tỷ lệ cấp tín dụng tối đa trên TSBĐ</t>
+    </si>
+    <si>
+        <t>Tỷ lệ cấp tín dụng trên TSBĐ</t>
+    </si>
+    <si>
+        <t>Phân loại TS</t>
+    </si>
+    <si>
+        <t>BĐS</t>
+    </si>
+    <si>
+        <t>Hình thức bảo đảm</t>
+    </si>
+    <si>
+        <t>Thế chấp</t>
+    </si>
+    <si>
+        <t>Hình thức / tiến độ hình thành TS</t>
+    </si>
+    <si>
+        <t>Hiện hữu</t>
+    </si>
+    <si>
+        <t>5. Biện pháp quản lý TSBĐ:</t>
+    </si>
+    <si>
+        <t>Thực hiện theo quy định của VPBank.</t>
+    </si>
+    <si>
+        <t>6. Điều kiện trước giải ngân</t>
+    </si>
+    <si>
+        <t>7. Điều kiện sau giải ngân</t>
+    </si>
+    <si>
+        <t>CHUYÊN GIA PHÊ DUYỆT TÍN DỤNG</t>
+    </si>
+    <si>
+        <t>(Ký và ghi rõ họ tên)</t>
+    </si>
+    <si>
+        <t>QUYẾT ĐỊNH PHÊ DUYỆT TÍN DỤNG
+            (Điều chỉnh bổ sung)
+        </t>
+    </si>
+    <si>
+        <t>Mã CIF:</t>
+    </si>
+    <si>
+        <t>Thay:</t>
+    </si>
+    <si>
+        <t>Bằng:</t>
+    </si>
+    <si>
+        <t>Các nội dung khác giữ nguyên như quyết định phê duyệt số:</t>
+    </si>
+    <si>
+        <t>,</t>
+    </si>
+    <si>
+        <t>ngày</t>
+    </si>
+    <si>
+        <t>Nơi nhận:</t>
+    </si>
+    <si>
+        <t>………………………………..</t>
+    </si>
+    <si>
+        <t>đồng chẵn.</t>
+    </si>
+    <si>
+        <r>
+            <t>Số:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.T.1</t>
+        </r>
+    </si>
+    <si>
+        <t xml:space="preserve">(Phương án bảng B)
+Sử dụng khi lựa chọn:
++ Nhóm sản phẩm: Sản xuất Kinh doanh
++ Hình thức vay: Vay món (Sản phẩm/Chương trình: Thông thường và Siêu linh hoạt)
++ Hình thức vay: Hạn mức tín dụng (Sản phẩm/Chương trình: Siêu linh hoạt) </t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.13</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.1</t>
+    </si>
+    <si>
+        <t>Chi phí (2) = (2.1)+(2.2)+(2.3)+(2.4)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.2</t>
+    </si>
+    <si>
+        <t>2.1</t>
+    </si>
+    <si>
+        <t>Giá vốn hàng bán (2.1)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.3</t>
+    </si>
+    <si>
+        <t>2.2</t>
+    </si>
+    <si>
+        <t>CP Bán hàng, CP QLKD (2.2)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.4</t>
+    </si>
+    <si>
+        <t>2.3</t>
+    </si>
+    <si>
+        <t>CP lãi vay (2.3)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.5</t>
+    </si>
+    <si>
+        <t>2.4</t>
+    </si>
+    <si>
+        <t>CP khác (2.3)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.6</t>
+    </si>
+    <si>
+        <t>Lợi nhuận (3) = (1)-(2)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.7</t>
+    </si>
+    <si>
+        <t>Cơ cấu nguồn vốn</t>
+    </si>
+    <si>
+        <t>Tổng nhu cầu vốn (không bao gồm CP lãi vay)(4)=(2)-(2.3)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.8</t>
+    </si>
+    <si>
+        <t>Vốn tự có (5)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.9</t>
+    </si>
+    <si>
+        <t>Vốn vay TCTD khác hoặc huy động khác (6)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.10</t>
+    </si>
+    <si>
+        <t>Nhu cầu vay tại SCB (7)=(4)-(5)-(6)</t>
+    </si>
+    <si>
+        <t>Tỷ lệ % SCB tài trợ (8)=(7)/(4)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.3.12</t>
+    </si>
+    <si>
+        <t>Thu nhập Người vay chính (1)</t>
+    </si>
+    <si>
+        <t>Thu nhập Người hôn phối (2)</t>
+    </si>
+    <si>
+        <t>Thu nhập Người vay đồng vay (3)</t>
+    </si>
+    <si>
+        <t>Thu nhập người đồng trả nợ (4)</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.4.2</t>
+    </si>
+    <si>
+        <t>S2.A.VI.2.4.4</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đánh giá:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Nhập tay</t>
+        </r>
+    </si>
+    <si>
+        <t>Hiển thị nếu tab phương án của ĐVKD có thông tin</t>
+    </si>
+    <si>
+        <t>(Phương án bảng C)
+            Nhóm sản phẩm còn lại
+        </t>
+    </si>
+    <si>
+        <t>Tổng giá trị phương án vay vốn</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.2_e</t>
+    </si>
+    <si>
+        <t>Vốn tự có</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.3_e</t>
+    </si>
+    <si>
+        <t>Tỷ lệ tài trợ của SCB</t>
+    </si>
+    <si>
+        <t>S1.A.III.2.5_e</t>
+    </si>
+    <si>
+        <t>S2.A.VI.3.4.2</t>
+    </si>
+    <si>
+        <t>S2.A.VI.3.4.5</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Đánh giá:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.VII.3.3</t>
+        </r>
+    </si>
+    <si>
+        <t>KHÔNG TSBĐ</t>
+    </si>
+    <si>
+        <t>S2.A.VI.4.4.2</t>
+    </si>
+    <si>
+        <t>S2.A.VI.4.4.3</t>
+    </si>
+    <si>
+        <t>S2.A.VI.4.4.4</t>
+    </si>
+    <si>
+        <t>S2.A.VI.4.4.5</t>
+    </si>
+    <si>
+        <t>Không TSBĐ</t>
+    </si>
+    <si>
+        <t>= Thông tin tại mục 4.TSBĐ
+            Thông tin TSBĐ của ĐVKD có loại TSBĐ nào thì hiện thông tin loại TSBĐ đó
+        </t>
+    </si>
+    <si>
+        <t>NGÂN HÀNG TMCP SÀI GÒN
+            _____________________
+        </t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">
+</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="13"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>Độc lập – Tự do – Hạnh phúc</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Số: </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.B.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FFC00000"/>
+                <rFont val="Times New Roman"/>
+            </rPr>
+            <t xml:space="preserve">S2.A.X.T.3 </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+            </rPr>
+            <t>S1.A.I.1.13&amp;" - "&amp;S1.A.I.2.1&amp;" - "&amp;S1.A.I.3.1</t>
+        </r>
+    </si>
+    <si>
+        <t>Mặc định nhưng có thể sửa tay. Drolist:
+            + "V/v phê duyệt cấp tín dụng đối với khách hàng "
+            + "V/v từ chối cấp tín dụng đối với khách hàng "
+        </t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <u/>
+                <sz val="13"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Kính gửi</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>:</t>
+        </r>
+    </si>
+    <si>
+        <t>S1.A.I.1.5&amp;" - "&amp;S2.A.X.T.6</t>
+    </si>
+    <si>
+        <t>Căn cứ Tờ trình tái thẩm định số S2.A.X.T.1, ngày S2.A.X.T.2 v/v cấp tín dụng đối với KH S1.A.I.1.13&amp;" -
+            "&amp;S1.A.I.2.1&amp;" - "&amp;S1.A.I.3.1 đã được phê duyệt;"
+        </t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Nay Phòng PDTD KHCN gửi đến </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.5&amp;" - "&amp;S2.A.X.T.6</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> kết quả phê duyệt cấp tín dụng đối với khách hàng </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.13&amp;" - "&amp;S1.A.I.2.1&amp;" - "&amp;S1.A.I.3.1</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> như sau:</t>
+        </r>
+    </si>
+    <si>
+        <t>Thông tin trong tab thông báo được mapping từ tờ trình và các tab hồ sơ khác nhưng user có thể sửa lại trực
+            tiếp trên tab thông báo
+        </t>
+    </si>
+    <si>
+        <t>Tên KH vay</t>
+    </si>
+    <si>
+        <t xml:space="preserve">=Year(S1.A.I.1.19) </t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.2</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">(hoặc trường giấy tờ tùy thân chính, có thể là </t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S1.A.I.1.9</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Vợ/ Chồng/ Người đồng vay</t>
+    </si>
+    <si>
+        <t>S1.A.I.3.1</t>
+    </si>
+    <si>
+        <t>=Year(S1.A.I.3.6)</t>
+    </si>
+    <si>
+        <t>2. Chi tiết phê duyệt cấp tín dụng:</t>
+    </si>
+    <si>
+        <t>S2.A.X.B.2.1</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.B.2.1</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> = Số tiền vay theo phê duyệt của CPD cuối cùng trong luồng trình hồ sơ</t>
+        </r>
+    </si>
+    <si>
+        <t>S2.A.X.B.2.2</t>
+    </si>
+    <si>
+        <t>Công thức số tiền vay bằng chữ</t>
+    </si>
+    <si>
+        <t>Tổng HM cấp tín dụng</t>
+    </si>
+    <si>
+        <t>S2.A.X.B.2.3</t>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Khoản vay có TSBĐ đề xuất:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.B.2.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Khoản vay không TSBĐ đề xuất:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> S2.A.X.B.2.1</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Dư nợ vay có TSBĐ hiện hữu:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.2.1.3</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Dư nợ vay không TSBĐ:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.2.1.4</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>Thẻ tín dụng:</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.2.1.5</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve">(Phụ lục </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.2.2</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t xml:space="preserve"> Thông báo </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <color rgb="FF0000FF"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.8.2.3</t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="12"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>)</t>
+        </r>
+    </si>
+    <si>
+        <t>Nếu tờ trình không có thì ẩn dòng này</t>
+    </si>
+    <si>
+        <t>Mặc định mapping thông tin từ tab Tờ trình phần của NVTTĐ nhưng có thể điều chỉnh</t>
+    </si>
+    <si>
+        <t>Mặc định mapping thông tin từ tab Tờ trình của NVTTĐ nhưng có thể điều chỉnh.
+            Nếu tờ trình không có thì ẩn dòng này
+        </t>
+    </si>
+    <si>
+        <t>Mặc định mapping thông tin từ tab Tờ trình của NVTTĐ nhưng có thể điều chỉnh
+            Nếu tờ trình không có thì ẩn dòng này
+        </t>
+    </si>
+    <si>
+        <t>Ngoại lệ hồ sơ</t>
+    </si>
+    <si>
+        <t>S1.A.VI.1.3_e</t>
+    </si>
+    <si>
+        <t xml:space="preserve">Mã ngoại lệ </t>
+    </si>
+    <si>
+        <t>S2.A.X.5.2</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">Hiển thị trong Trường hợp </t>
+        </r>
+        <r>
+            <rPr>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.T.3 = "</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>V/v từ chối cấp tín dụng đối với khách hàng"</t>
+        </r>
+    </si>
+    <si>
+        <t>Thông tin thẩm định và phê duyệt</t>
+    </si>
+    <si>
+        <t>Đặc tính sản phẩm</t>
+    </si>
+    <si>
+        <t>S2.A.X.B.2.5</t>
+    </si>
+    <si>
+        <t>Droplist: BL009 - KHOI BAN LE - CV SIEU LINH HOAT - CM THU NHAP THEO QD /BL007 - KHOI BAN LE - CV SIEU LINH
+            HOAT - PP BANG KE THU NHAP
+        </t>
+    </si>
+    <si>
+        <t>NV thẩm định</t>
+    </si>
+    <si>
+        <t>S2.A.X.B.2.6</t>
+    </si>
+    <si>
+        <t>TÊN USER CỦA NVTTĐ</t>
+    </si>
+    <si>
+        <t>Cấp phê duyệt</t>
+    </si>
+    <si>
+        <t>S2.A.X.B.2.7</t>
+    </si>
+    <si>
+        <t>TÊN USER CỦA CPD</t>
+    </si>
+    <si>
+        <t>Trân trọng.</t>
+    </si>
+    <si>
+        <r>
+            <t>Nơi nhận</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <i/>
+                <sz val="12"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+                <charset val="163"/>
+            </rPr>
+            <t>:</t>
+        </r>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">CHỨC DANH USER KÝ THÔNG BÁO
+</t>
+        </r>
+        <r>
+            <rPr>
+                <b/>
+                <sz val="13"/>
+                <color rgb="FFFF0000"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>S2.A.X.B.2.8</t>
+        </r>
+    </si>
+    <si>
+        <t>Điều kiện: + IF user CPD = CPD1/CPD2=&gt; User ký thông báo = user CPD
+            + IF user CPD = CPD3/CPD4/CPD5 =&gt; User ký thông báo = user CKS (CPD2)
+        </t>
+    </si>
+    <si>
+        <t>- Như trên;</t>
+    </si>
+    <si>
+        <r>
+            <t xml:space="preserve">- Khối QLRR (P.QLRRTD, TT.QLRRHĐ&amp;TT); Khối HTKD (TT.VHTD) </t>
+        </r>
+        <r>
+            <rPr>
+                <i/>
+                <sz val="11"/>
+                <color theme="1"/>
+                <rFont val="Times New Roman"/>
+                <family val="1"/>
+            </rPr>
+            <t>"để biết";</t>
+        </r>
+    </si>
+    <si>
+        <t>- Lưu P.PDTD KHCN.</t>
+    </si>
+    <si>
+        <t>BL009 - KHOI BAN LE - CV SIEU LINH HOAT - CM THU NHAP THEO QD</t>
+    </si>
+</sst>
