@@ -22,7 +22,7 @@ def docx_to_pdf(input_docx_path, output_folder_path):
 
 if __name__ == "__main__":
     # docx_file_url = './test.docx'
-    docx_file_url = './BM_DEMO_v1 dùng de test du th .docx'
+    docx_file_url = './BM_DEMO_v1.docx'
     # docx_to_pdf('./filecanfix.docx', './output.pdf')
     # docx_file_url = './MAU_BAOCAO_TONGHOP_FULL (copy).docx'
 
@@ -36,29 +36,40 @@ if __name__ == "__main__":
 
     with MergeField(docx_file_url) as document:
         document.merge({
-            "ho":"",
+            "ho": "",
             "ho2": '',
-        "ten":"123123213",
-            "ho23":'',
+            "ten": "123123213",
+            "ho23": '',
 
             "hohohoho": "",
-            "ho3":"",
+            "ho3": "",
 
-            "ten2":"",
-            "ten3": ""
+            "ten2": "",
+            "ten3": "",
+            "nhom.11111": "",
+            "nhom.22222": "",
+            "nhom.33333": ""
         },
             {
-        "nhom.a333":[
-            {
-                "nhom.a333": "",
-            }
+                "nhom.a333": [
+                    {
+                        "nhom.b333": "",
+                        "nhom.a333": "",
+                        "nhom.a222":"",
+                        "nhom.c222":""
+                    }
                 ],
-            "nhom.a4444":[{
-                "nhom.a4444": "",
-                "nhom.a444224":""
-            }
+                "nhom.a4444": [{
+                    "nhom.a4444": "",
+                    "nhom.a5555": "",
+                    "nhom.a444224": ""
+                }
 
-            ],
+                ],
+                "nhom.c333":[{
+                    "nhom.c333":"",
+                    "nhom.d333": "",
+                }]
 
             }
         )

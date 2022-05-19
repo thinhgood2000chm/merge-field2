@@ -485,8 +485,6 @@ class MergeField:
             for row_data in rows:
                 new_row = deepcopy(row)
                 row.addprevious(new_row)
-
-                print(      "ffasdfasdfasdfasdfasdf"  ,        len(table.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tr')), table.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tr'))
                 in_new_row_checkbox_field_name__list_group_checkbox_details = \
                     self.__get_checkbox_field_name__list_group_checkbox_details(part=new_row)
 
@@ -542,41 +540,57 @@ class MergeField:
                             )
 
                         else:
-                            print("da vaof ")
+                            #wt -> wr -> wp -> wtc -> wtr
                             wp_of_merge_field = merge_field.getparent().getparent()
                             columns = new_row.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tc')
 
-                            if len(columns) == 1:
-                                child_t_elements_dont_have_empty_in_p = []
-                                child_elements_in_p = wp_of_merge_field.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
-                                for w_text in child_elements_in_p:
-                                    if w_text.text != '':
-                                        child_t_elements_dont_have_empty_in_p.append(w_text)
+                            # trong từng cột của 1 hàng cột và trong cột đó chỉ có duy nhất mergefield và nhập vào empty string
+                            # thì tiến hành xóa đi đoạn text trong column
 
-                                if not need_to_checked_values_or_text and len(child_t_elements_dont_have_empty_in_p) == 1:
-                                    print("new row", etree.tostring(new_row))
-                                    row.getparent().remove(new_row)
+                            for column in columns:
+                                if wp_of_merge_field in column:
+                                    child_t_elements_dont_have_empty_in_p = []
+                                    child_elements_in_p = wp_of_merge_field.findall(
+                                        f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
+                                    for w_text in child_elements_in_p:
+                                        if w_text.text != '':
+                                            child_t_elements_dont_have_empty_in_p.append(w_text)
+                                    if not need_to_checked_values_or_text and len(
+                                            child_t_elements_dont_have_empty_in_p) == 1 \
+                                            and child_t_elements_dont_have_empty_in_p[0].get("is_merge_field"):
+                                        print(merge_field.text)
+                                        space_tag_in_p = wp_of_merge_field.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}spacing")
+                                        list_attr_of_p_tag = space_tag_in_p.items()
 
-                            # print("da vaof ", etree.tostring(wp_of_merge_field))
-                            # if not need_to_checked_values_or_text and len(wp_of_merge_field.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD))==1:
-                            #     # xóa các row trong p
-                            #     list_wr_in_wp = wp_of_merge_field.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}r')
-                            #     for wr_in_wp in list_wr_in_wp:
-                            #         wp_of_merge_field.remove(wr_in_wp)
-                            #     detail_format_element = wp_of_merge_field[0]
-                            #     print("detail_format_element",detail_format_element)
-                            #     # xóa bullet hoặc kí tự đầu dòng
-                            #     # print("tag", detail_format_element.tag)
-                            #     bullet_number = detail_format_element.find(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}numPr')
-                            #     if bullet_number:
-                            #         print("ggggg gggg")
-                            #         detail_format_element.remove(bullet_number)
-                            else:
-                                self.__fill_text(
-                                    merge_field=merge_field,
-                                    parent=merge_field.getparent(),
-                                    text=need_to_checked_values_or_text
-                                )
+                                        column.remove(wp_of_merge_field)
+                                        # set lại attribute kích thước của row sau khi xóa đi 1 p trong row
+
+                                        new_row.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}trHeight").set(
+                                            f"{{{NAMESPACE_WORDPROCESSINGML}}}val", "0")
+                                        new_row.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}trHeight").set(
+                                            f"{{{NAMESPACE_WORDPROCESSINGML}}}hRule", "auto")
+
+
+                                        is_exits_p = column.findall(f".//{{{NAMESPACE_WORDPROCESSINGML}}}p")
+                                        if not is_exits_p:
+                                            p_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}p")
+                                            ppr_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}pPr")
+                                            print("fffffffffffffffffffff", new_space_tag_p)
+                                            ppr_tag.append(new_space_tag_p)
+                                            p_tag.append(ppr_tag)
+                                            # nếu row ko còn thẻ p thì cần add lại thẻ p nếu ko row sẽ mất border
+                                            column.append(p_tag)
+                                            # set lại kích thước của row
+                                            new_row.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}trHeight").set(
+                                                            f"{{{NAMESPACE_WORDPROCESSINGML}}}hRule", "auto")
+
+                                    else:
+                                        self.__fill_text(
+                                            merge_field=merge_field,
+                                            parent=merge_field.getparent(),
+                                            text=need_to_checked_values_or_text
+                                        )
+
             table.remove(row)
         else:
             if self.is_remove_row_or_table_has_one_row_when_empty:
@@ -608,12 +622,10 @@ class MergeField:
     def __merge_field(self, field_name, text):
         for merge_field in self.field_name__elements.get(field_name, []):
             parent = merge_field.getparent()
-            print("da vao2222 ", field_name, parent)
             # remove blank line
             if not text \
                     and merge_field.text[1:-1] not in self.in_table_field_name__details \
                     and len(parent.getchildren()) == 2:
-                print("da vao ", field_name)
                 grand_parent = parent.getparent()
 
                 is_contain_num_format = False
