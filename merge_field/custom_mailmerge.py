@@ -558,25 +558,28 @@ class MergeField:
                                     if not need_to_checked_values_or_text and len(
                                             child_t_elements_dont_have_empty_in_p) == 1 \
                                             and child_t_elements_dont_have_empty_in_p[0].get("is_merge_field"):
-                                        print(merge_field.text)
+
                                         space_tag_in_p = wp_of_merge_field.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}spacing")
+                                        new_space_tag_in_p = deepcopy(space_tag_in_p)
                                         list_attr_of_p_tag = space_tag_in_p.items()
 
                                         column.remove(wp_of_merge_field)
                                         # set lại attribute kích thước của row sau khi xóa đi 1 p trong row
-
                                         new_row.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}trHeight").set(
                                             f"{{{NAMESPACE_WORDPROCESSINGML}}}val", "0")
                                         new_row.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}trHeight").set(
                                             f"{{{NAMESPACE_WORDPROCESSINGML}}}hRule", "auto")
 
-
                                         is_exits_p = column.findall(f".//{{{NAMESPACE_WORDPROCESSINGML}}}p")
                                         if not is_exits_p:
+
+                                            # set laị kích thước của row sau khi tạo mới lại thẻ p bằng kích thước
+                                            # của thẻ p trước đó
+
+                                            #wppr ->wp-> wtc
                                             p_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}p")
                                             ppr_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}pPr")
-                                            print("fffffffffffffffffffff", new_space_tag_p)
-                                            ppr_tag.append(new_space_tag_p)
+                                            ppr_tag.append(new_space_tag_in_p)
                                             p_tag.append(ppr_tag)
                                             # nếu row ko còn thẻ p thì cần add lại thẻ p nếu ko row sẽ mất border
                                             column.append(p_tag)
