@@ -48,6 +48,9 @@ EMBOSSED_TABLE_BYPASS_SEPARATOR_CHARACTERS = ["-", ":"]
 NUMBER_ROW_IN_TABLE_IS_ONE = 1
 NUMBER_ROW_IN_TABLE_IS_TWO = 2
 
+FROM_COLOR_VALUE = 'FF0000'
+TO_COLOR_VALUE = '000000'
+
 
 class MergeField:
     def __init__(self, file, is_remove_row_or_table_has_one_row_when_empty=True):
@@ -93,9 +96,9 @@ class MergeField:
         t_elements = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}t')
 
         for t_element in t_elements:
-
             # Trường hợp thẻ không có text, vd: <w:t xml:space="preserve"/>
             # cần gán lại là string rỗng '' để không chạy lỗi khi duyệt t_element.text
+
             if t_element.text is None:
                 t_element.text = ''
 
@@ -183,7 +186,7 @@ class MergeField:
 
                     # xóa phần trước merge field và merge field đã được xử lý
                     text_contain_list_field_name = text_contain_list_field_name[
-                        start_index_found + len(field_name_contain_open_close_tag):]
+                                                   start_index_found + len(field_name_contain_open_close_tag):]
 
                 previous_remainder_field_name = None
                 previous_last_remainder_t_element = None
@@ -451,30 +454,33 @@ class MergeField:
                 else:
                     output.writestr(filename, self.zip.read(zip_info))
 
-    def merge(self, not_in_group_replacements: dict, in_group_replacements: dict):
+    def merge(self, not_in_group_replacements: dict, in_group_replacements: dict, change_color_flag: bool = False):
         for field_name, replacement in not_in_group_replacements.items():
             if self.__is_valid_need_to_checked_values_for_checkbox(value_need_to_check=replacement) \
                     and field_name in self.checkbox_field_name__list_group_checkbox_details:
-                self.__merge_checkbox(field_name=field_name, need_to_checked_values=replacement)
+                self.__merge_checkbox(field_name=field_name, need_to_checked_values=replacement, change_color_flag=change_color_flag)
 
             elif self.__is_valid_need_to_checked_values_for_extend_text_checkbox(value_need_to_check=replacement) \
                     and field_name in self.checkbox_field_name__list_group_checkbox_details:
                 self.__merge_checkbox(field_name=field_name, need_to_checked_values=replacement,
-                                      is_add_extend_text=True)
+                                      is_add_extend_text=True, change_color_flag=change_color_flag)
 
             elif self.__is_valid_values_for_embossed_table(value_need_to_check=replacement) \
                     and field_name in self.embossed_table_field_name__details:
-                self.__merge_embossed_table(field_name=field_name, embossed_table_info=replacement)
+                self.__merge_embossed_table(field_name=field_name, embossed_table_info=replacement,
+                                            change_color_flag=change_color_flag)
             else:
-                self.__merge_field(field_name=field_name, text=replacement)
+                self.__merge_field(field_name=field_name, text=replacement, change_color_flag=change_color_flag)
 
         for field_name_anchor, list_row_replacement in in_group_replacements.items():
             if self.__is_valid_values_for_row(value_need_to_check=list_row_replacement):
-                self.__merge_rows(anchor=field_name_anchor, rows=list_row_replacement)
+                self.__merge_rows(anchor=field_name_anchor, rows=list_row_replacement,
+                                  change_color_flag=change_color_flag)
             else:
-                self.__merge_field(field_name=field_name_anchor, text=list_row_replacement)
+                self.__merge_field(field_name=field_name_anchor, text=list_row_replacement,
+                                   change_color_flag=change_color_flag)
 
-    def __merge_rows(self, anchor, rows):
+    def __merge_rows(self, anchor, rows, change_color_flag=False):
         if anchor not in self.in_table_field_name__details:
             return None
 
@@ -510,7 +516,8 @@ class MergeField:
                                     merge_field=merge_field,
                                     parent=merge_field.getparent(),
                                     checkbox_infos=group_checkbox_detail['checkbox_infos'],
-                                    need_to_checked_values=need_to_checked_values_or_text
+                                    need_to_checked_values=need_to_checked_values_or_text,
+                                    change_color_flag=change_color_flag
                                 )
 
                         elif self.__is_valid_need_to_checked_values_for_extend_text_checkbox(
@@ -525,7 +532,8 @@ class MergeField:
                                     parent=merge_field.getparent(),
                                     checkbox_infos=group_checkbox_detail['checkbox_infos'],
                                     need_to_checked_values=need_to_checked_values_or_text,
-                                    is_add_extend_text=True
+                                    is_add_extend_text=True,
+                                    change_color_flag=change_color_flag
                                 )
 
                         elif self.__is_valid_values_for_embossed_table(
@@ -536,11 +544,12 @@ class MergeField:
                                 merge_field=detail['merge_field'],
                                 parent=detail['merge_field'].getparent(),
                                 embossed_table_obj=detail['embossed_table'],
-                                need_to_checked_values=need_to_checked_values_or_text
+                                need_to_checked_values=need_to_checked_values_or_text,
+                                change_color_flag=change_color_flag
                             )
 
                         else:
-                            #wt -> wr -> wp -> wtc -> wtr
+                            # wt -> wr -> wp -> wtc -> wtr
                             wp_of_merge_field = merge_field.getparent().getparent()
                             columns = new_row.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tc')
 
@@ -559,7 +568,8 @@ class MergeField:
                                             child_t_elements_dont_have_empty_in_p) == 1 \
                                             and child_t_elements_dont_have_empty_in_p[0].get("is_merge_field"):
 
-                                        space_tag_in_p = wp_of_merge_field.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}spacing")
+                                        space_tag_in_p = wp_of_merge_field.find(
+                                            f".//{{{NAMESPACE_WORDPROCESSINGML}}}spacing")
                                         new_space_tag_in_p = deepcopy(space_tag_in_p)
                                         list_attr_of_p_tag = space_tag_in_p.items()
 
@@ -572,11 +582,10 @@ class MergeField:
 
                                         is_exits_p = column.findall(f".//{{{NAMESPACE_WORDPROCESSINGML}}}p")
                                         if not is_exits_p:
-
                                             # set laị kích thước của row sau khi tạo mới lại thẻ p bằng kích thước
                                             # của thẻ p trước đó
 
-                                            #wppr ->wp-> wtc
+                                            # wppr ->wp-> wtc
                                             p_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}p")
                                             ppr_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}pPr")
                                             ppr_tag.append(new_space_tag_in_p)
@@ -585,13 +594,14 @@ class MergeField:
                                             column.append(p_tag)
                                             # set lại kích thước của row
                                             new_row.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}trHeight").set(
-                                                            f"{{{NAMESPACE_WORDPROCESSINGML}}}hRule", "auto")
+                                                f"{{{NAMESPACE_WORDPROCESSINGML}}}hRule", "auto")
 
                                     else:
                                         self.__fill_text(
                                             merge_field=merge_field,
                                             parent=merge_field.getparent(),
-                                            text=need_to_checked_values_or_text
+                                            text=need_to_checked_values_or_text,
+                                            change_color_flag=change_color_flag
                                         )
 
             table.remove(row)
@@ -622,7 +632,7 @@ class MergeField:
                 else:
                     table.remove(row)
 
-    def __merge_field(self, field_name, text):
+    def __merge_field(self, field_name, text, change_color_flag=False):
         for merge_field in self.field_name__elements.get(field_name, []):
             parent = merge_field.getparent()
             # remove blank line
@@ -657,21 +667,44 @@ class MergeField:
                         child_t_elements_dont_have_empty_in_p.append(w_text)
 
                 if not text and len(child_t_elements_dont_have_empty_in_p) == 1:
-                    grand_parent.getparent().remove(grand_parent)
-                else:
-                    self.__fill_text(merge_field=merge_field, parent=parent, text=text)
+                    grand_grand_parent = grand_parent.getparent()
+                    # nếu fill data nằm trong 1 table nhưng truyền lên theo cách fill của field ko nằm trong table
+                    if 'tc' in grand_grand_parent.tag:
+                        spacing_tag_in_p = grand_parent.find(f".//{{{NAMESPACE_WORDPROCESSINGML}}}spacing")
+                        new_spacing_tag_in_p = deepcopy(spacing_tag_in_p)
 
-    def __merge_embossed_table(self, field_name, embossed_table_info):
+                        grand_grand_parent.remove(grand_parent)
+
+                        p_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}p")
+                        ppr_tag = Element(f"{{{NAMESPACE_WORDPROCESSINGML}}}pPr")
+                        ppr_tag.append(new_spacing_tag_in_p)
+                        p_tag.append(ppr_tag)
+                        # nếu row ko còn thẻ p thì cần add lại thẻ p nếu ko row sẽ mất border
+                        grand_grand_parent.append(p_tag)
+
+                    else:
+                        # nếu là fill data cho 1 field ko nằm trong table
+                        grand_grand_parent.remove(grand_parent)
+                else:
+                    self.__fill_text(
+                        merge_field=merge_field,
+                        parent=parent,
+                        text=text,
+                        change_color_flag=change_color_flag
+                    )
+
+    def __merge_embossed_table(self, field_name, embossed_table_info, change_color_flag=False):
 
         detail = self.embossed_table_field_name__details[field_name]
         self.__fill_embossed_table(
             merge_field=detail['merge_field'],
             parent=detail['merge_field'].getparent(),
             embossed_table_obj=detail['embossed_table'],
-            need_to_checked_values=embossed_table_info
+            need_to_checked_values=embossed_table_info,
+            change_color_flag=change_color_flag
         )
 
-    def __merge_checkbox(self, field_name, need_to_checked_values, is_add_extend_text=False):
+    def __merge_checkbox(self, field_name, need_to_checked_values, is_add_extend_text=False, change_color_flag=False):
         for group_checkbox_detail in self.checkbox_field_name__list_group_checkbox_details[field_name]:
             self.__fill_checkbox(
                 field_name=field_name,
@@ -679,11 +712,12 @@ class MergeField:
                 parent=group_checkbox_detail['merge_field'].getparent(),
                 checkbox_infos=group_checkbox_detail['checkbox_infos'],
                 need_to_checked_values=need_to_checked_values,
-                is_add_extend_text=is_add_extend_text
+                is_add_extend_text=is_add_extend_text,
+                change_color_flag=change_color_flag
             )
 
     def __fill_checkbox(self, field_name, merge_field, parent, checkbox_infos, need_to_checked_values,
-                        is_add_extend_text=False):
+                        change_color_flag=False, is_add_extend_text=False):
         for checkbox_info in checkbox_infos:
             # uncheck all checkbox in group
             checkbox_info['checkbox_obj'].text = CHECKBOX_UNCHECKED_TEXT
@@ -786,33 +820,47 @@ class MergeField:
                     checkbox_info['checkbox_obj'].text = CHECKBOX_CHECKED_TEXT
                     is_checked_checkbox = True
 
-                    self.__set_text_for_t_element(
-                        element=checkbox_info['value_obj'],
+                    self.__fill_text(
+                        merge_field=checkbox_info['value_obj'],
+                        parent=checkbox_info['value_obj'].getparent(),
                         text=checkbox_info['original_value'].replace(
                             checkbox_info['value'],
                             f"{checkbox_info['value']} {', '.join(others_need_to_checked_values)}"
-                        )
+
+                        ),
+                        change_color_flag=change_color_flag
                     )
+                    # self.__set_text_for_t_element(
+                    #     element=checkbox_info['value_obj'],
+                    #     text=checkbox_info['original_value'].replace(
+                    #         checkbox_info['value'],
+                    #         f"{checkbox_info['value']} {', '.join(others_need_to_checked_values)}"
+                    #     )
+                    # )
         ################################################################################################################
         # if found checkbox has value the same with need to checked values, then replace merge_field with empty text
         if is_checked_checkbox:
             self.__fill_text(
                 merge_field=merge_field,
                 parent=parent,
-                text=''
+                text='',
+                change_color_flag=change_color_flag
             )
         # if NOT, then replace merge_field with need_to_checked_values to easily DEBUG
         else:
             self.__fill_text(
                 merge_field=merge_field,
                 parent=parent,
-                text=', '.join(others_need_to_checked_values)
+                text=', '.join(others_need_to_checked_values),
+                change_color_flag=change_color_flag
             )
 
-    def __fill_text(self, merge_field, parent, text):
+    def __fill_text(self, merge_field, parent, text, change_color_flag=False):
         text = text or ''  # text might be None
-
-
+        print(change_color_flag)
+        if change_color_flag:
+            print(" da vao ")
+            self.__set_color_for_text(merge_field, FROM_COLOR_VALUE, TO_COLOR_VALUE)
         # preserve new lines in replacement text
         text_parts = str(text).split('\n')
         nodes = []
@@ -831,7 +879,8 @@ class MergeField:
 
         parent.remove(merge_field)  # remove old merge field element due to it is replaced by new text in nodes
 
-    def __fill_embossed_table(self, merge_field, parent, embossed_table_obj, need_to_checked_values):
+    def __fill_embossed_table(self, merge_field, parent, embossed_table_obj, need_to_checked_values,
+                              change_color_flag=False):
         text = str(need_to_checked_values['value'])
 
         cells = embossed_table_obj.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tc')
@@ -857,8 +906,20 @@ class MergeField:
         self.__fill_text(
             merge_field=merge_field,
             parent=parent,
-            text=""
+            text="",
+            change_color_flag=change_color_flag
         )
+
+    @staticmethod
+    def __set_color_for_text(element, from_color_value, to_color_value):
+        p_element = element.getparent().getparent()
+        # color bao gồm color của bullet(w:numPr) và color của text (w:t)
+        list_format_color_pararaph = p_element.findall(f".//{{{NAMESPACE_WORDPROCESSINGML}}}color")
+        for format_color_pararaph in list_format_color_pararaph:
+            if format_color_pararaph is not None \
+                    and format_color_pararaph.get(f'{{{NAMESPACE_WORDPROCESSINGML}}}val') == from_color_value:
+                print("da vao ")
+                format_color_pararaph.set(f"{{{NAMESPACE_WORDPROCESSINGML}}}val", to_color_value)
 
     @staticmethod
     def __set_text_for_t_element(element, text):

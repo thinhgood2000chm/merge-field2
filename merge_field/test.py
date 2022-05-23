@@ -22,7 +22,7 @@ def docx_to_pdf(input_docx_path, output_folder_path):
 
 if __name__ == "__main__":
     # docx_file_url = './test.docx'
-    docx_file_url = './BM_DEMO_v1.docx'
+    docx_file_url = './BM_DEMO_v1_test_bullet.docx'
     # docx_to_pdf('./filecanfix.docx', './output.pdf')
     # docx_file_url = './MAU_BAOCAO_TONGHOP_FULL (copy).docx'
 
@@ -36,27 +36,47 @@ if __name__ == "__main__":
 
     with MergeField(docx_file_url) as document:
         document.merge({
-            "ho": "",
-            "ho2": '',
-            "ten": "123123213",
-            "ho23": '',
+            "ho": "asdf",
+            "hovaten":"dfgdfgdfg",
+            "ten":"",
+            # "ho2": '',
+            # "ten": "123123213",
+            # "ho23": '',
+            #
+            # "hohohoho": "",
+            # "ho3": "",
+            #
+            "ten2": "dfgdfg",
+            "ten3": "dgdfg",
+            # "nhom.11111": "",
+            "nhom.22222":"sdfsdf",
+            "nhom.d333":"gfgwefg",
+            "nhom.b222":"hrgserg",
+            "nhom.g": "htgfhrtdg",
+            "thunhap":["234534534"],
+            "thunhap2":["Lương"]
 
-            "hohohoho": "",
-            "ho3": "",
 
-            "ten2": "",
-            "ten3": "",
-            "nhom.11111": "",
-            "nhom.22222": "",
-            "nhom.33333": ""
         },
             {
+                "nhom.a":[
+                    {
+                    "nhom.a":"123123123123",
+                    "nhom.b":"gggg",
+                    "nhom.c":"",
+                }
+                ],
                 "nhom.a333": [
                     {
-                        "nhom.b333": "",
-                        "nhom.a333": "",
-                        "nhom.a222":"",
-                        "nhom.c222":""
+                        "nhom.b333": "aa",
+                        "nhom.a333": "ff",
+                        "nhom.a222":"gg",
+                        "nhom.c222":"hh"
+                    },   {
+                        "nhom.b333": "aa",
+                        "nhom.a333": "ff",
+                        "nhom.a222":"gg",
+                        "nhom.c222":"hh"
                     }
                 ],
                 "nhom.a4444": [{
@@ -69,10 +89,11 @@ if __name__ == "__main__":
                 "nhom.c333":[{
                     "nhom.c333":"",
                     "nhom.d333": "",
-                    "nhom.b222": ""
+                    "nhom.b222": "",
+
                 }]
 
-            }
+            }, change_color_flag=True
         )
         # for key, value in document.merge_fields.items():
         #     print(key, value)
