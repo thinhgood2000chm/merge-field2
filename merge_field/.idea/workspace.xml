@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e7064a0-531b-4993-8547-0abc048fc7bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/S2 - VAY - MÃ HÓA BIỂU MẪU.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_xlsx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.example.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BM_01_DE_NGHI_CAP_TIN_DUNG (5).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BM_01_DE_NGHI_CAP_TIN_DUNG.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BM_02_DE_NGHI_CAP_TIN_DUNG.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_mailmerge.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_mailmerge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29dqcyWpcHtfmxDt0TSvqIGceXT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/adminstrator/merge_file/merge-field2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e7064a0-531b-4993-8547-0abc048fc7bf" name="Changes" comment="" />
+      <created>1653453393472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653453393472</updated>
+      <workItem from="1653453394775" duration="136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

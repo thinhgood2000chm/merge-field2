@@ -4,7 +4,7 @@ from subprocess import Popen
 
 from lxml import etree
 
-from custom_mailmerge import MergeField
+from custom_mailmerge import MergeField, MERGE_FIELD_TYPE_CHECKBOX
 
 
 def docx_to_pdf(input_docx_path, output_folder_path):
@@ -22,7 +22,7 @@ def docx_to_pdf(input_docx_path, output_folder_path):
 
 if __name__ == "__main__":
     # docx_file_url = './test.docx'
-    docx_file_url = './BM_DEMO_v1_test_bullet.docx'
+    docx_file_url = './Tài sản bảo đảm.docx'
     # docx_to_pdf('./filecanfix.docx', './output.pdf')
     # docx_file_url = './MAU_BAOCAO_TONGHOP_FULL (copy).docx'
 
@@ -34,69 +34,28 @@ if __name__ == "__main__":
     #         for t in ts:
     #             print(t.text)
 
-    with MergeField(docx_file_url) as document:
-        document.merge({
-            "ho": "asdf",
-            "hovaten":"dfgdfgdfg",
-            "ten":"",
-            # "ho2": '',
-            # "ten": "123123213",
-            # "ho23": '',
-            #
-            # "hohohoho": "",
-            # "ho3": "",
-            #
-            "ten2": "dfgdfg",
-            "ten3": "dgdfg",
-            # "nhom.11111": "",
-            "nhom.22222":"sdfsdf",
-            "nhom.d333":"gfgwefg",
-            "nhom.b222":"hrgserg",
-            "nhom.g": "htgfhrtdg",
-            "thunhap":["234534534"],
-            "thunhap2":["Lương"]
+    with MergeField(file=docx_file_url) as document:
+        document.merge(not_in_group_replacements={
 
 
-        },
+        }, in_group_replacements=
+
             {
-                "nhom.a":[
-                    {
-                    "nhom.a":"123123123123",
-                    "nhom.b":"gggg",
-                    "nhom.c":"",
+
+            "S1.A.V.2.1.10.1.14.12a":[{
+                'S1.A.V.2.1.10.1.14.12a':123123
+            },
+                {
+                    'S1.A.V.2.1.10.1.14.12a': 12222
                 }
-                ],
-                "nhom.a333": [
-                    {
-                        "nhom.b333": "aa",
-                        "nhom.a333": "ff",
-                        "nhom.a222":"gg",
-                        "nhom.c222":"hh"
-                    },   {
-                        "nhom.b333": "aa",
-                        "nhom.a333": "ff",
-                        "nhom.a222":"gg",
-                        "nhom.c222":"hh"
-                    }
-                ],
-                "nhom.a4444": [{
-                    "nhom.a4444": "",
-                    "nhom.a5555": "",
-                    "nhom.a444224": ""
-                }
+            ]
+            }
 
-                ],
-                "nhom.c333":[{
-                    "nhom.c333":"",
-                    "nhom.d333": "",
-                    "nhom.b222": "",
 
-                }]
-
-            }, change_color_flag=True
         )
-        # for key, value in document.merge_fields.items():
-        #     print(key, value)
+
+        for key, value in document.merge_fields.items():
+            print(key, value)
         # print(document.merge_fields)
         document.write('exampledoc.docx')
 
@@ -107,3 +66,7 @@ if __name__ == "__main__":
     #     delete_space_mergefield.write('new_example.docx')
 
     # print(test)
+
+
+
+
