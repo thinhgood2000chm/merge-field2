@@ -12,6 +12,7 @@
 #     for i in response:
 #         print(i)
 #     print(response.iter_content)
+
 comma = 'phẩy'
 
 LEVEL_N = {
@@ -54,7 +55,7 @@ for number in range(20, 100):
         LESS_THAN_100[number] = f'{LESS_THAN_100[number // 10]} mươi {LESS_THAN_100[number % 10]}'
 
 
-def convert_e_number_to_number(input_number:float) -> str:
+def convert_e_number_to_number(input_number: float) -> str:
     # 0.0000058 = 5.8e-06
     num_e_part_and_zero_part = str(input_number).split('-')
     str_input_number_type_float = f'0.{"".join(["0"] * (int(num_e_part_and_zero_part[1])-1))}' \
@@ -122,10 +123,13 @@ def number_to_words(input_number: float) -> str:
                 # đổi với các số phía sau dấu phẩy
                 if ten_digit == 0 and index == DECIMAL_PART:
                     if level >= 3:
+                        # th1: 0.03xxx -> 0 chục 3 nghìn
+                        # th2: 3.00xxx -> 0 chục nghìn
                         output.append(
                             f'{LESS_THAN_100[ten_digit]} chục {LESS_THAN_100[unit_digit]}' if unit_digit != 0 else f'{LESS_THAN_100[ten_digit]} chục')
                     else:
-                        output.append(f'{LESS_THAN_100[ten_digit]} {LESS_THAN_100[unit_digit]}' if unit_digit != 0 else f'{LESS_THAN_100[ten_digit]}')
+                        if unit_digit != 0:
+                            output.append(f'{LESS_THAN_100[ten_digit]} {LESS_THAN_100[unit_digit]}')
                 else:
                     output.append(f'{LESS_THAN_100[ten_digit * 10 + unit_digit]}')
 
@@ -143,13 +147,11 @@ def number_to_words(input_number: float) -> str:
                 # Nếu chữ số hàng đơn vị và hàng chục bằng 0, chữ số hàng trăm khác 0
                 # => x trăm
                 elif unit_digit == 0 and ten_digit == 0 and (hundred_digit != 0):
-                    print(" vao 2 ")
                     output.append(f'{LESS_THAN_100[hundred_digit]} trăm')
 
                 # Nếu chữ số hàng chục bằng 0, chữ số hàng đơn vị khác 0
                 # => x trăm lẻ y
                 elif unit_digit != 0 and ten_digit == 0:
-                    print(" vao 3 ")
                     output.append(f'{LESS_THAN_100[hundred_digit]} trăm lẻ {LESS_THAN_100[unit_digit]}')
 
                 # Nếu chữ số hàng chục khác 0
@@ -159,14 +161,15 @@ def number_to_words(input_number: float) -> str:
                 # Sau 3 chữ số thì tăng level lên để có thể thêm nghìn, triệu tỷ
             level += 3
 
-        if not is_positive:
-            output.append('âm')
+
         output.reverse()
         output_total.extend(output)
-
+    if not is_positive:
+        output_total.insert(0, 'âm')
     output_total[0] = output_total[0].capitalize()  # viết hoa chữ cái đầu
     return ' '.join(output_total)
 
 
 if __name__ == '__main__':
-    print(number_to_words(0.000005))
+    import math
+    print(number_to_words(-0.67889979070877899877))

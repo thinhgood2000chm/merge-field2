@@ -22,7 +22,7 @@ def docx_to_pdf(input_docx_path, output_folder_path):
 
 if __name__ == "__main__":
     # docx_file_url = './test.docx'
-    docx_file_url = './Tài sản bảo đảm.docx'
+    docx_file_url = './an hien dong.docx'
     # docx_to_pdf('./filecanfix.docx', './output.pdf')
     # docx_file_url = './MAU_BAOCAO_TONGHOP_FULL (copy).docx'
 
@@ -36,19 +36,19 @@ if __name__ == "__main__":
 
     with MergeField(file=docx_file_url) as document:
         document.merge(not_in_group_replacements={
-
-
+            # "nhomlon1": {'value': [], 'type': 'show_row_in_table'},
+            "nhomlon2=hhihihi": {'value': [], 'type': 'show_row_in_table'}
         }, in_group_replacements=
 
             {
-
-            "S1.A.V.2.1.10.1.14.12a":[{
-                'S1.A.V.2.1.10.1.14.12a':123123
-            },
-                {
-                    'S1.A.V.2.1.10.1.14.12a': 12222
-                }
-            ]
+            #
+            # "S1.A.V.2.1.10.1.14.12a":[{
+            #     'S1.A.V.2.1.10.1.14.12a':123123
+            # },
+            #     {
+            #         'S1.A.V.2.1.10.1.14.12a': 12222
+            #     }
+            # ]
             }
 
 

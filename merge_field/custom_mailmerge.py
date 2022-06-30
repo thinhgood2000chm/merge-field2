@@ -36,7 +36,6 @@ CLOSE_TAG = '»'
 
 CHECKBOX_CHECKED_TEXT = '☒'
 CHECKBOX_UNCHECKED_TEXT = '☐'
-UNCHECK_TEXT = 'Không chọn'
 
 # parse from docx
 MERGE_FIELD_TYPE_TEXT = 'text'
@@ -240,6 +239,7 @@ class MergeField:
         tables = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tbl')
         for table in tables:
             if is_parse_in_table_field_name:
+                tr_index_and_merge_fields ={}
                 # TH có merge row
                 # tr -> tc -> tcPr -> <w:vMerge w:val="restart"/>  (thẻ Merge bắt đầu nhóm Merge)
                 # tr -> tc -> tcPr -> <w:vMerge/>  (thẻ Merge con trong nhóm Merge)
@@ -251,7 +251,13 @@ class MergeField:
                     for tr in table.findall(ELEMENT_PATH_TR):
                         column_index = 0
                         for tc in tr.findall(f'{{{NAMESPACE_WORDPROCESSINGML}}}tc'):
+                            all_merge_field_of_tc = tc.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
                             tc_indexes[tc] = column_index
+                            if tr not in tr_index_and_merge_fields:
+                                tr_index_and_merge_fields[tr] = {
+                                    'column_index': column_index,
+                                    "all_merge_field_of_tc": all_merge_field_of_tc
+                                }
                             column_index += 1
 
                     group_trs_by_column_index = {}
@@ -274,22 +280,36 @@ class MergeField:
                             group_trs_by_column_index[column_index].append([])
 
                         group_trs_by_column_index[column_index][-1].append(tr)
-
+                    print("group_trs_by_column_index", group_trs_by_column_index)
+                    print("tr_index_and_merge_fields", tr_index_and_merge_fields)
+                    # có 1 merge row kế bên merge row ==> columnindex 0 có 3 row merge column index 1 có 2 row trong merge ( 2 row này trùng vs 2/3 row
+                    # ở column 1
+                    # ==> column 0 bị thay thế bởi 2 row của column 1
                     for group_trs in group_trs_by_column_index.values():
                         for trs in group_trs:
                             for tr in trs:
-                                tr__merged_trs[tr] = trs
-
+                                if tr not in tr__merged_trs:
+                                    tr__merged_trs[tr] = []
+                                print("tr", tr)
+                                tr__merged_trs[tr].append(trs)
+                            print("tr__merged_trs tr__merged_trs", tr__merged_trs)
+                    print("123123123123123", len(tr__merged_trs), tr__merged_trs)
                 # TH chung
                 for row in table.findall(ELEMENT_PATH_TR):
                     merge_fields = row.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
                     current_siblings = [merge_field.text[1:-1] for merge_field in merge_fields]
-
+                    print("tr__merged_trs trong ", tr__merged_trs)
+                    # for row_of_column_index in tr__merged_trs:
+                    # print(row," hha ", row_of_column_index)
                     if row in tr__merged_trs:
-                        for merged_tr in tr__merged_trs[row]:
-                            current_siblings.extend([m.text[1:-1]
-                                                     for m in merged_tr.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)])
 
+                        for column_have_mergerow_each_indexs in tr__merged_trs[row]:
+                            for row_of_column_index in column_have_mergerow_each_indexs:
+                                print("row_of_column_index", row_of_column_index)
+                                current_siblings.extend([m.text[1:-1]
+                                                         for m in row_of_column_index.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)])
+
+                    print("current_siblings",current_siblings)
                     for merge_field in merge_fields:
                         field_name = merge_field.text[1:-1]
                         if not in_table_field_name__details.get(field_name):
@@ -311,8 +331,12 @@ class MergeField:
                             if row not in contain_merge_field_rows:
                                 contain_merge_field_rows.append(row)
                         else:
-                            contain_merge_field_rows.append(tr__merged_trs[row])
-
+                            if merge_field in tr_index_and_merge_fields[row]['all_merge_field_of_tc']:
+                                column_index_of_merge_field_in_row = tr_index_and_merge_fields[row]['column_index']
+                                print("column_index_of_merge_field_in_row", column_index_of_merge_field_in_row)
+                                contain_merge_field_rows.append(tr__merged_trs[row][column_index_of_merge_field_in_row])
+                        print(merge_field.text)
+                        print("contain_merge_field_rows", contain_merge_field_rows)
                         in_table_field_name__details[field_name] = {
                             'table': table,
                             'rows': [row] if row not in tr__merged_trs else tr__merged_trs[row],
@@ -320,6 +344,7 @@ class MergeField:
                             'tr__merged_trs': tr__merged_trs,
                             'contain_merge_field_rows': contain_merge_field_rows
                         }
+                        print("in_table_field_name__details", in_table_field_name__details)
 
             # Bảng khung dập nổi
             # tbl -> tc -> tbl (bảng dập nổi) + t (merge_field)
@@ -357,7 +382,6 @@ class MergeField:
                 for value in group_checkbox_detail['values']:
                     if value not in self.checkbox_field_name__values[field_name]:
                         self.checkbox_field_name__values[field_name].append(value)
-                self.checkbox_field_name__values[field_name].append(UNCHECK_TEXT)
 
     def __get_checkbox_field_name__list_group_checkbox_details(self, part):
         # tree order finding checkbox in a tc:
@@ -579,8 +603,10 @@ class MergeField:
     def __merge_rows(self, anchor, rows, in_table_field_name__details):
         if anchor not in in_table_field_name__details:
             return None
+
         table = in_table_field_name__details[anchor]['table']
         need_to_duplicate_rows = in_table_field_name__details[anchor]['rows']
+
         if len(rows) > 0:
             for row_data in rows:
                 last_need_to_duplicate_row = need_to_duplicate_rows[-1]
@@ -663,18 +689,14 @@ class MergeField:
 
                 # TH1: bảng 1 dòng -> xóa bảng
                 if count_row_in_table == NUMBER_ROW_IN_TABLE_IS_ONE:
-                    parent = table.getparent()
-                    parent.remove(table)
-                    # TODO: remove previous or next empty line
+                    self.__remove_table_and_empty_line(tbl_element=table)
 
                 # TH 2: bảng 2 dòng
                 # row trên không chứa merge field nào thì xóa bảng, còn không thì chỉ xóa dòng đó trong bảng
                 elif count_row_in_table == NUMBER_ROW_IN_TABLE_IS_TWO:
                     # if first row dows not contain merge field
                     if table.find(ELEMENT_PATH_TR).find(ELEMENT_PATH_RECURSIVE_MERGE_FIELD) is None:
-                        parent = table.getparent()
-                        parent.remove(table)
-                        # TODO: remove previous or next empty line
+                        self.__remove_table_and_empty_line(tbl_element=table)
                     else:
                         for need_to_duplicate_row in need_to_duplicate_rows:
                             table.remove(need_to_duplicate_row)
@@ -690,10 +712,9 @@ class MergeField:
             checkbox_info['checkbox_obj'].text = CHECKBOX_UNCHECKED_TEXT
 
         is_checked_checkbox = False
+
         # Trường hợp người dùng truyền rỗng để không chọn checkbox nào
         if not need_to_checked_values:
-            is_checked_checkbox = True
-        elif need_to_checked_values[0]['option'].lower() == UNCHECK_TEXT.lower():
             is_checked_checkbox = True
         else:
             # Trường hợp có extend text cho checkbox:
@@ -787,9 +808,7 @@ class MergeField:
                 break
 
         if is_table_empty:
-            parent = table.getparent()
-            parent.remove(table)
-            # TODO: remove previous or next empty line
+            self.__remove_table_and_empty_line(tbl_element=table)
 
         return None
 
@@ -851,22 +870,57 @@ class MergeField:
 
             # preserve new lines in replacement text
             text_parts = str(text).split('\n')
-            nodes = []
 
-            for text_part in text_parts:
-                text_node = Element(f'{{{NAMESPACE_WORDPROCESSINGML}}}t')
-                self.__set_text_for_t_element(element=text_node, text=text_part)
-                nodes.append(text_node)
+            if len(text_parts) == 1:
+                self.__set_text_for_t_element(element=merge_field, text=text_parts[0])
+            else:
+                p_element = merge_field.getparent().getparent()
 
-                nodes.append(Element(f'{{{NAMESPACE_WORDPROCESSINGML}}}br'))
+                p_element_only_contains_merge_field = deepcopy(p_element)
+                t_elements = p_element_only_contains_merge_field.findall(ELEMENT_PATH_RECURSIVE_T)
+                for t_element in t_elements:
+                    if t_element.text and (not t_element.get('is_merge_field') or t_element.text != merge_field.text):
+                        r_element = t_element.getparent()
+                        r_element.remove(t_element)
 
-            nodes.pop()  # remove last br element
+                # TODO: xử lý trường hợp có t_element phía sau merge_field trong p_element
 
-            for node in reversed(nodes):
-                merge_field.addnext(node)
+                self.__set_text_for_t_element(element=merge_field, text=text_parts[0])
 
-            parent = merge_field.getparent()
-            parent.remove(merge_field)  # remove old merge field element due to it is replaced by new text in nodes
+                for text_part in reversed(text_parts[1:]):
+                    new_p_element = deepcopy(p_element_only_contains_merge_field)
+                    self.__set_text_for_t_element(
+                        element=new_p_element.find(ELEMENT_PATH_RECURSIVE_MERGE_FIELD),
+                        text=text_part
+                    )
+                    p_element.addnext(new_p_element)
+
+    def __remove_table_and_empty_line(self, tbl_element):
+        # Kiểm tra, xử lý dòng trống nếu như xóa bảng
+        previous_p_element = tbl_element.getprevious()
+        next_p_element = tbl_element.getnext()
+
+        # Bảng ngay đầu file
+        if previous_p_element is None and self.__is_blank_line(next_p_element):
+            next_p_element_parent = next_p_element.getparent()
+            next_p_element_parent.remove(next_p_element)
+
+        # Bảng ngay cuối file hoặc TH thường
+        elif (next_p_element is None is None and self.__is_blank_line(previous_p_element)) or \
+                (self.__is_blank_line(previous_p_element) and self.__is_blank_line(next_p_element)):
+            previous_p_element_parent = previous_p_element.getparent()
+            previous_p_element_parent.remove(previous_p_element)
+
+        parent = tbl_element.getparent()
+        parent.remove(tbl_element)
+
+    @staticmethod
+    def __is_blank_line(element):
+        if element is not None and element.tag == f'{{{NAMESPACE_WORDPROCESSINGML}}}p':
+            text_in_p_element = ''.join(element.itertext())
+            if not text_in_p_element or text_in_p_element.isspace():
+                return True
+        return False
 
     @staticmethod
     def __set_color_for_text(element, from_color_value, to_color_value):
