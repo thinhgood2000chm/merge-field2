@@ -22,24 +22,53 @@ def docx_to_pdf(input_docx_path, output_folder_path):
 
 if __name__ == "__main__":
     # docx_file_url = './test.docx'
-    docx_file_url = './BM_ROW_MERGE.docx'
+    docx_file_url = './an hien dong.docx'
 
     with MergeField(file=docx_file_url) as document:
         document.merge(not_in_group_replacements={
             # "nhomlon1": {'value': [], 'type': 'show_row_in_table'},
-            "ba1": {'value': [], 'type': 'show_row_in_table'}
+            "nhomlon2": {'value': [1], 'type': 'show_row_in_table'}
+
         }, in_group_replacements={
-            'hai1':[
-                {
-                    "hai1":123123,
-                    "hai2":"hahahah",
-                    "hai5":945958
-                },
-                {
-                    "hai1": 4444,
-                    "hai2": "hihihi"
-                }
-            ]
+            # "bay2":[
+            #     {
+            #         "bay4":444,
+            #         "bay2":123123,
+            #         "bay1":55555,
+            #         "bay1a":[
+            #             {
+            #                 "bay1a":11,
+            #             },
+            #             {
+            #                 "bay1a": 22,
+            #             }
+            #         ]
+            #     },
+            #       {
+            #         "bay2":55555,
+            #         "bay1":66666
+            #     }
+            # ],
+            # 'mot1':[],
+            # 'hai1':[
+            #     {
+            #         "hai1":123123,
+            #         "hai2":"hahahah",
+            #         "hai2a":[
+            #             {
+            #                 "hai2a":1232323
+            #             },
+            #             {
+            #                 "hai2a": 'ggggggggg'
+            #             }
+            #         ],
+            #         "hai5":945958
+            #     },
+            #     {
+            #         "hai1": 4444,
+            #         "hai2": "hihihi"
+            #     }
+            # ]
         }
 
         )
