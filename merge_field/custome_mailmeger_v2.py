@@ -239,7 +239,6 @@ class MergeField:
         tables = part.findall(f'.//{{{NAMESPACE_WORDPROCESSINGML}}}tbl')
         for table in tables:
             if is_parse_in_table_field_name:
-                tr_index_and_merge_fields ={}
                 # TH có merge row
                 # tr -> tc -> tcPr -> <w:vMerge w:val="restart"/>  (thẻ Merge bắt đầu nhóm Merge)
                 # tr -> tc -> tcPr -> <w:vMerge/>  (thẻ Merge con trong nhóm Merge)
@@ -251,17 +250,7 @@ class MergeField:
                     for tr in table.findall(ELEMENT_PATH_TR):
                         column_index = 0
                         for tc in tr.findall(f'{{{NAMESPACE_WORDPROCESSINGML}}}tc'):
-                            all_merge_field_of_tc = tc.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
-                            print("123123123123",len(all_merge_field_of_tc))
                             tc_indexes[tc] = column_index
-                            if tc not in tr_index_and_merge_fields[tr]:
-                                tr_index_and_merge_fields[tr] = {
-                                    tc:{
-                                        'column_index': column_index,
-                                        "all_merge_field_of_tc": all_merge_field_of_tc
-                                    }
-
-                                }
                             column_index += 1
 
                     group_trs_by_column_index = {}
@@ -284,36 +273,22 @@ class MergeField:
                             group_trs_by_column_index[column_index].append([])
 
                         group_trs_by_column_index[column_index][-1].append(tr)
-                    print("group_trs_by_column_index", group_trs_by_column_index)
-                    print("tr_index_and_merge_fields", tr_index_and_merge_fields)
-                    # có 1 merge row kế bên merge row ==> columnindex 0 có 3 row merge column index 1 có 2 row trong merge ( 2 row này trùng vs 2/3 row
-                    # ở column 1
-                    # ==> column 0 bị thay thế bởi 2 row của column 1
+
                     for group_trs in group_trs_by_column_index.values():
                         for trs in group_trs:
                             for tr in trs:
-                                if tr not in tr__merged_trs:
-                                    tr__merged_trs[tr] = []
-                                print("tr", tr)
-                                tr__merged_trs[tr].append(trs)
-                            print("tr__merged_trs tr__merged_trs", tr__merged_trs)
-                    print("123123123123123", len(tr__merged_trs), tr__merged_trs)
+                                tr__merged_trs[tr] = trs
+
                 # TH chung
                 for row in table.findall(ELEMENT_PATH_TR):
                     merge_fields = row.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)
                     current_siblings = [merge_field.text[1:-1] for merge_field in merge_fields]
-                    print("tr__merged_trs trong ", tr__merged_trs)
-                    # for row_of_column_index in tr__merged_trs:
-                    # print(row," hha ", row_of_column_index)
+
                     if row in tr__merged_trs:
+                        for merged_tr in tr__merged_trs[row]:
+                            current_siblings.extend([m.text[1:-1]
+                                                     for m in merged_tr.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)])
 
-                        for column_have_mergerow_each_indexs in tr__merged_trs[row]:
-                            for row_of_column_index in column_have_mergerow_each_indexs:
-                                print("row_of_column_index", row_of_column_index)
-                                current_siblings.extend([m.text[1:-1]
-                                                         for m in row_of_column_index.findall(ELEMENT_PATH_RECURSIVE_MERGE_FIELD)])
-
-                    print("current_siblings",current_siblings)
                     for merge_field in merge_fields:
                         field_name = merge_field.text[1:-1]
                         if not in_table_field_name__details.get(field_name):
@@ -335,19 +310,12 @@ class MergeField:
                             if row not in contain_merge_field_rows:
                                 contain_merge_field_rows.append(row)
                         else:
-                            tc = merge_field.getparent().getparent().getparent()
-                            if tc in tr_index_and_merge_fields[row]:
-                                # column_index_of_merge_field_in_row = tr_index_and_merge_fields[row][tc]['column_index']
-                                # print("column_index_of_merge_field_in_row", column_index_of_merge_field_in_row)
-                                contain_merge_field_rows.append(tr__merged_trs[row][tr_index_and_merge_fields[row][tc]['column_index']])
-                        print(merge_field.text)
-                        print("contain_merge_field_rows", contain_merge_field_rows)
-                        print("index ",field_name, tr_index_and_merge_fields[row]['column_index'])
+                            contain_merge_field_rows.append(tr__merged_trs[row])
+
                         in_table_field_name__details[field_name] = {
                             'table': table,
-                            'rows': [row] if row not in tr__merged_trs else tr__merged_trs[row][tr_index_and_merge_fields[row][tc]['column_index']],
+                            'rows': [row] if row not in tr__merged_trs else tr__merged_trs[row],
                             'siblings': sorted(siblings),
-                            # 'tr__merged_trs': {row:tr__merged_trs[row][tr_index_and_merge_fields[row]['column_index']]},
                             'tr__merged_trs': tr__merged_trs,
                             'contain_merge_field_rows': contain_merge_field_rows
                         }
